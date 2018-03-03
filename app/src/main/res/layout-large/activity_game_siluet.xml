@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/game_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.twentyfourkapps.geograph.game"
+    android:background="@drawable/verd"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:keepScreenOn="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back_arrow"
+        android:onClick="home_pressed"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:visibility="invisible"
+        android:background="@null"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/game_mode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/geograph_white_logo"
+            android:scaleY="1.5"
+            android:scaleX="1.5"
+
+            />
+        <View
+            android:layout_width="481dp"
+            android:layout_height="5dp"
+            android:background="@drawable/white_line"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:gravity="top"
+            >
+
+            <ImageView
+                android:id="@+id/check_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/check_mark"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:elevation="10dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/wrong_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wrong"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                android:elevation="10dp"/>
+            <TextView
+                android:id="@+id/plus5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+5s"
+                android:textSize="25sp"
+                android:textColor="@color/red_button"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:elevation="15dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="146dp"
+                android:layout_height="136dp"
+                android:layout_centerInParent="true">
+                <ImageView
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/costa_rica_country"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:textSize="48sp"
+            android:textColor="@color/green_diff"
+            android:text="@string/timer"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+
+                >
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageButton
+                        android:id="@+id/a50_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/a50_power"
+                        android:padding="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:clickable="false"
+                        android:onClick="a50_pressed"
+                        android:background="@null"
+
+                        />
+                    <TextView
+                        android:id="@+id/a50_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/button_mini"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp">
+
+                    <ImageButton
+                        android:id="@+id/skip_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        app:srcCompat="@drawable/skip_power"
+                        android:padding="0dp"
+                        android:clickable="false"
+                        android:onClick="skip_pressed"
+                        android:background="@null"
+                        />
+
+                    <TextView
+                        android:id="@+id/skip_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/button_mini"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp">
+                    <ImageButton
+                        android:id="@+id/time_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/time_power"
+                        android:padding="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:clickable="false"
+                        android:onClick="time_pressed"
+                        android:background="@null"
+                        />
+                    <TextView
+                        android:id="@+id/time_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/button_mini"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+
+                    >
+                    <ImageButton
+                        android:id="@+id/a25_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/a25_power"
+                        android:padding="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:clickable="false"
+                        android:onClick="a25_pressed"
+                        android:background="@null"
+                        />
+                    <TextView
+                        android:id="@+id/a25_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/button_mini"
+                        android:text="0"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/option1"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:background="@drawable/button_answer"
+                        android:onClick="answer"
+                        android:text="Costa Rica"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:layout_gravity="start"
+                        />
+
+
+                    <Button
+                        android:id="@+id/option2"
+                        android:text="Italy"
+                        android:textSize="15sp"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:onClick="answer"
+                        android:background="@drawable/button_answer"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/white"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:id="@+id/option3"
+                        android:text="Mexico"
+                        android:textSize="15sp"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:onClick="answer"
+                        android:background="@drawable/button_answer"
+                        android:textColor="@color/white"
+                        android:layout_gravity="start"
+                        />
+                    <Button
+                        android:id="@+id/option4"
+                        android:text="Thailand"
+                        android:textSize="15sp"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:onClick="answer"
+                        android:background="@drawable/button_answer"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="start"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:indeterminate="false"
+                    android:max="6000"
+                    android:progressDrawable="@drawable/custom_progressbar"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/practice_mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/practice"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

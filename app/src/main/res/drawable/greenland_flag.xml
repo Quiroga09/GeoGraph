@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="21dp"
+    android:viewportWidth="30"
+    android:viewportHeight="21">
+
+    <path
+        android:name="Fill-1"
+        android:fillColor="#DF0021"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M0.0175234,20.3427 L29.9753,20.3427 L29.9753,10.2502 L0.0175234,10.2502 Z" />
+    <path
+        android:name="Stroke-2"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M0.0175234,20.3427 L29.9753,20.3427 L29.9753,10.2502 L0.0175234,10.2502 Z" />
+    <path
+        android:name="Fill-4"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M0.0175234,10.2502 L29.9753,10.2502 L29.9753,0.15771 L0.0175234,0.15771 Z" />
+    <path
+        android:name="Stroke-5"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M0.0175234,10.2171 L29.9753,10.2171 L29.9753,0.124626 L0.0175234,0.124626 Z" />
+    <path
+        android:name="Fill-7"
+        android:fillColor="#DF0021"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M20.0765,10.2171 C20.0765,6.076,16.7193,2.7188,12.5782,2.7188
+C8.43707,2.7188,5.07987,6.076,5.07987,10.2171 L20.0765,10.2171 Z" />
+    <path
+        android:name="Stroke-8"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M20.0765,10.2171 C20.0765,6.076,16.7193,2.7188,12.5782,2.7188
+C8.43707,2.7188,5.07987,6.076,5.07987,10.2171 L20.0765,10.2171 Z" />
+    <path
+        android:name="Fill-9"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M5.07987,10.2171 C5.07987,14.3582,8.43707,17.7154,12.5782,17.7154
+C16.7193,17.7154,20.0765,14.3582,20.0765,10.2171 L5.07987,10.2171 Z" />
+</vector>

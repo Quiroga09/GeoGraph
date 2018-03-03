@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/game_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.twentyfourkapps.geograph.game"
+    android:background="@drawable/verd"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:keepScreenOn="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back_arrow"
+        android:onClick="home_pressed"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:visibility="invisible"
+        android:background="@null"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/game_mode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            app:srcCompat="@drawable/geograph_white_logo"
+
+            />
+
+        <View
+            android:layout_width="321dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/white_line" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:text="0000"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:id="@+id/check_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:elevation="10dp"
+                android:src="@drawable/check_mark"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/wrong_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:elevation="10dp"
+                android:src="@drawable/wrong"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/plus5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:elevation="15dp"
+                android:text="+5s"
+                android:textColor="@color/red_button"
+                android:textSize="25sp"
+                android:visibility="invisible" />
+
+            <RelativeLayout
+                android:layout_width="146dp"
+                android:layout_height="139dp"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/argentina_country" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3"
+            android:gravity="bottom"
+            android:text="@string/timer"
+            android:textColor="@color/green_diff"
+            android:textSize="32sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/a50_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:onClick="a50_pressed"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/a50_power"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/a50_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/button_mini"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp">
+
+                    <ImageButton
+                        android:id="@+id/skip_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:onClick="skip_pressed"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/skip_power" />
+
+                    <TextView
+                        android:id="@+id/skip_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/button_mini"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp">
+
+                    <ImageButton
+                        android:id="@+id/time_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:onClick="time_pressed"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/time_power" />
+
+                    <TextView
+                        android:id="@+id/time_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/button_mini"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginStart="26dp"
+
+                    >
+
+                    <ImageButton
+                        android:id="@+id/a25_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:onClick="a25_pressed"
+                        android:padding="0dp"
+                        app:srcCompat="@drawable/a25_power" />
+
+                    <TextView
+                        android:id="@+id/a25_text"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/button_mini"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/option1"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/button_answer"
+                        android:onClick="answer"
+                        android:text="Costa Rica"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+
+                    <Button
+                        android:id="@+id/option2"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/button_answer"
+                        android:onClick="answer"
+                        android:text="Italy"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/option3"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="start"
+                        android:background="@drawable/button_answer"
+                        android:onClick="answer"
+                        android:text="Mexico"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/option4"
+                        android:layout_width="152dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/button_answer"
+                        android:onClick="answer"
+                        android:text="Thailand"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:indeterminate="false"
+                    android:max="6000"
+                    android:progressDrawable="@drawable/custom_progressbar"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/practice_mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/practice"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+

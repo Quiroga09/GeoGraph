@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="37dp"
+    android:height="22dp"
+    android:viewportWidth="37"
+    android:viewportHeight="22">
+
+    <group
+            android:name="PAISOS-2-Copy"
+            android:translateX="-556.000000"
+            android:translateY="-831.000000">
+        <path
+            android:name="BHUTAN"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 571.750174 830.998867 L 567.990629 831.516681 L 562.170616 834.947199 L 559.511426 840.173883 L 557.165081 841.301207 L 556.857629 844.030518 L 556 845.988502 L 558.313981 849.677926 L 562.343221 850.530162 L 563.966783 849.510716 L 569.786796 852.844143 L 572.958406 852.844143 L 575.35869 849.931439 L 578.007092 849.58623 L 580.499072 850.702766 L 584.781825 849.510716 L 588.02895 849.677926 L 592.83491 848.135272 L 592.73782 846.247409 L 592.73782 842.913982 L 589.059184 841.279632 L 588.713974 838.890136 L 589.496089 836.020584 L 588.978275 836.069129 L 587.009503 833.490847 L 584.005104 833.404545 L 580.919796 834.607383 L 578.702905 833.571755 L 572.958406 832.973033 Z" />
+    </group>
+</vector>

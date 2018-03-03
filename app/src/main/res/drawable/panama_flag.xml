@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="21dp"
+    android:viewportWidth="30"
+    android:viewportHeight="21">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-2273.000000"
+            android:translateY="-335.000000">
+        <group
+                android:name="Panama"
+                android:translateX="2273.000000"
+                android:translateY="335.000000">
+            <path
+                android:name="Fill-1067"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 10.5 L 15 10.5 L 15 0 L 0 0 Z" />
+            <path
+                android:name="Fill-1068"
+                android:fillColor="#3F51B5"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 21 L 15 21 L 15 10.5 L 0 10.5 Z" />
+            <group
+                    android:name="Monaco-Copy-2"
+                    android:translateX="15.000000">
+                <path
+                    android:name="Fill-1067"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 0 10.5 L 15 10.5 L 15 0 L 0 0 Z" />
+                <path
+                    android:name="Fill-1068"
+                    android:fillColor="#D0021B"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 0 21 L 15 21 L 15 10.5 L 0 10.5 Z" />
+            </group>
+            <path
+                android:name="Fill-37"
+                android:fillColor="#D0021B"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 22.6520147 12.9 L 23.3974576 15.2030753 L 25.8 15.2030753 L 23.857819 16.628692 L 24.5982251 18.9277144 L 22.6520147 17.5071638 L 20.7058043 18.9277144 L 21.4462104 16.628692 L 19.5 15.2030753 L 21.9065718 15.2030753 Z" />
+            <path
+                android:name="Fill-37-Copy"
+                android:fillColor="#3F51B5"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.35201471 1.8 L 8.09745763 4.10307527 L 10.5 4.10307527 L 8.557819 5.52869204 L 9.29822514 7.82771438 L 7.35201471 6.40716378 L 5.40580429 7.82771438 L 6.14621043 5.52869204 L 4.2 4.10307527 L 6.60657179 4.10307527 Z" />
+        </group>
+    </group>
+</vector>

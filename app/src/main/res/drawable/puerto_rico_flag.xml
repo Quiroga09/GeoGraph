@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="20dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <path
+        android:name="Fill-1"
+        android:fillColor="#C43645"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 0.069124424 19.9769585 L 29.9308756 19.9769585 L 29.9308756 0.069124424 L 0.069124424 0.069124424 Z" />
+    <path
+        android:name="Fill-3"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 0.069124424 8.03225806 L 29.9308756 8.03225806 L 29.9308756 4.05069124 L 0.069124424 4.05069124 Z" />
+    <path
+        android:name="Fill-5"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 0.069124424 15.9951152 L 29.9308756 15.9951152 L 29.9308756 12.0136866 L 0.069124424 12.0136866 Z" />
+    <path
+        android:name="Fill-7"
+        android:fillColor="#08305D"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 12.0190783 10.0230415 L 0.069124424 19.9769585 L 0.069124424 0.069124424 L 12.0190783 10.0230415 " />
+    <path
+        android:name="Fill-9"
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 4.86373272 6.80267281 L 4.14746544 9.02875576 L 1.79115207 9.02875576 L 3.70437788 10.4142857 L 2.96930876 12.6385714 L 4.86373272 11.2562212 L 6.75815668 12.6385714 L 6.03235023 10.3953456 L 7.93631336 9.03801843 L 5.58940092 9.03801843 L 4.86373272 6.80267281 " />
+</vector>

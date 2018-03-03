@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="147dp"
+    android:height="119dp"
+    android:viewportWidth="147"
+    android:viewportHeight="119">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-1303.000000"
+            android:translateY="-329.000000">
+        <group
+                android:name="MARSHALL-ISLANDS"
+                android:translateX="1303.000000"
+                android:translateY="329.000000">
+            <path
+                android:name="Fill-1"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 71.848093 55 L 73.675888 54.4236707 L 74 52.3980976 L 71 52 L 71.0383041 53.5502885 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 117.848093 33 L 119.675888 32.4236707 L 120 30.3980976 L 117 30 L 117.038304 31.5502885 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0378192534 36.5505145 L 0.848722986 38 L 2.67632613 37.4237605 L 3 35.3980355 L 0 35 Z" />
+            <path
+                android:name="Fill-4"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 62.0136833 13.1278375 L 63 11.635902 L 59.354091 9 L 59 11.1744325 L 60.2192125 12.8620072 L 60.2192125 14 Z" />
+            <path
+                android:name="Fill-5"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 76.5696057 17.0781978 L 78.8817742 18 L 82 13.0139824 L 78.8241986 13 L 76.6282574 14.8234076 L 75 15.0440186 Z" />
+            <path
+                android:name="Fill-6"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 100.018311 78.7095865 L 102.991353 80 L 107 73.0197213 L 102.917599 73 L 100.093591 75.5531105 L 98 75.8617224 Z" />
+            <path
+                android:name="Fill-7"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 82.0533529 45.7007545 L 80.6789036 45 L 78.907489 46.6434045 L 78 50.092538 L 79.7719041 50.3148061 L 81.6926089 50.5911824 L 82.3078806 52.9491336 L 84.2280959 53.8313097 L 85.7572198 54 L 86 50.9747141 L 85.0861478 49.0618295 L 82.712188 47.6401627 Z" />
+            <path
+                android:name="Fill-8"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 110.355749 99.8866001 L 111.549179 101 L 113.92531 100.097229 L 116 97.2411165 L 114.236943 96.4310434 L 112.338183 95.520033 L 112.475494 93.1449171 L 110.775729 91.6782367 L 109.24653 91 L 108 93.6938923 L 108.318069 95.7625914 L 110.31123 97.8802142 Z" />
+            <path
+                android:name="Fill-9"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 140.469784 82.4067437 L 140.859048 83 L 141.905813 82.2520632 L 143 80.3199717 L 142.352379 79.9601509 L 141.658324 79.547984 L 141.921126 78.0686159 L 141.35699 77.2970997 L 140.792854 77 L 140.050387 78.7651497 L 140 80.0195709 L 140.626379 81.1697713 Z" />
+            <path
+                android:name="Fill-10"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 95.0395462 62.6231143 L 94.0094272 62 L 92.6806743 63.4609938 L 92 66.5273074 L 93.3292322 66.7243396 L 94.7691939 66.9701373 L 95.2303268 69.0660674 L 96.6707678 69.8502555 L 97.8178477 70 L 98 67.3114956 L 97.3140529 65.6106151 L 95.5337541 64.3471461 Z" />
+            <path
+                android:name="Fill-11"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 141.680674 94.0956135 L 141 96.3947881 L 142.329232 96.5427989 L 143.768715 96.7275341 L 144.230327 98.2994528 L 145.670768 98.8870444 L 146.817368 99 L 147 96.9829361 L 146.314532 95.7081517 L 144.533754 94.7599926 L 144.040026 93.4674024 L 143.008948 93 Z" />
+            <path
+                android:name="Fill-12"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 131.026474 52.4674457 L 130.339591 52 L 129.453911 53.0962716 L 129 55.3956594 L 129.886161 55.5431274 L 130.845969 55.7278798 L 131.154031 57.2999444 L 132.113839 57.8881469 L 132.8787 58 L 133 55.9833055 L 132.54272 54.7084029 L 131.356197 53.7601558 Z" />
+            <group
+                    android:name="Group-42"
+                    android:translateX="16.000000">
+                <path
+                    android:name="Fill-13"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M45.3302809,47.5967962 L45.2756426,47.5866252 C44.9794723,47.5322107
+44.8477277,47.7442748 44.9590468,48.0961893 L45.2010894,48.861044
+C45.2434723,48.9937748 45.3175149,49.1376936 45.4160681,49.2785611
+L46.4935149,50.8103047 C46.8198128,51.2740996 47.319217,51.5741423
+47.5755574,51.4607363 L47.732834,51.3915739 L48.1372596,51.2318902
+C48.3205787,51.160185 48.6305362,51.2883389 48.9205787,51.5558346
+L49.7146213,52.2901765 C49.9229617,52.4818987 50.1456,52.6064927
+50.3243234,52.6293774 L51.0055149,52.7183731 C51.0795574,52.7280355
+51.1444085,52.7204073 51.195983,52.6949799 C51.4426213,52.5759799
+51.3471319,52.1055739 50.9871319,51.6666979 L50.0337702,50.5041594
+C49.9367489,50.3856679 49.8269617,50.277856 49.7130894,50.1898774
+L48.687217,49.3934927 C48.5457702,49.283138 48.4027915,49.2073645
+48.2761532,49.174309 L47.1731745,48.8839286 C47.0225362,48.844262
+46.8504511,48.7440782 46.683983,48.6006679 L45.8664511,47.8907363
+C45.6821106,47.7315611 45.4906213,47.6262919 45.3302809,47.5967962" />
+                <path
+                    android:name="Fill-15"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M99.389617,45.5636252 L99.3763404,45.5249756 C99.3028085,45.3134201
+99.4268936,45.2915526 99.6745532,45.4731038 L100.212255,45.8672278
+C100.305702,45.9348645 100.410383,46.0279286 100.516085,46.1362491
+L101.668085,47.3150611 C102.016851,47.6720611 102.278298,48.0926295
+102.235404,48.2263774 L102.208851,48.3082534 L102.154723,48.5259115
+C102.129702,48.6250782 102.253277,48.8676551 102.467745,49.1407449
+L103.054468,49.8888175 C103.20817,50.0846081 103.318468,50.2692107
+103.356766,50.3943132 L103.501277,50.8698047 C103.516596,50.9211679
+103.51966,50.9608346 103.509447,50.9877876 C103.461447,51.1133987
+103.137191,50.9064201 102.800681,50.5341637 L101.909617,49.5506338
+C101.819234,49.4509585 101.733957,49.3456893 101.660426,49.2429628
+L101.003745,48.3245269 C100.912851,48.1973902 100.844426,48.0799158
+100.806128,47.9863432 L100.475234,47.1716509 C100.429787,47.0602791
+100.341957,46.9158517 100.225532,46.7622705 L99.6520851,46.0070782
+C99.5234043,45.836715 99.4289362,45.6785568 99.389617,45.5636252" />
+                <path
+                    android:name="Fill-17"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 92.9123745 100.41515 L 91.3825021 99.5175641 L 90.2667574 100.628739 L 92.3808 101.203397 Z" />
+                <path
+                    android:name="Fill-19"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 89.0821277 117.802118 L 86.7571915 116.438194 L 85.0618723 118.127079 L 88.2748085 118.999746 Z" />
+                <path
+                    android:name="Fill-21"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 81.2225872 101.690992 L 78.8976511 100.579817 L 77.2028426 101.955945 L 80.4157787 102.666894 Z" />
+                <path
+                    android:name="Fill-23"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 93.6888 36.5527825 L 89.7308426 34.6609876 L 86.8447149 37.0033551 L 92.3146723 38.2147141 Z" />
+                <path
+                    android:name="Fill-25"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 57.6175149 18.0499098 L 56.0876426 17.1523244 L 54.9718979 18.2634996 L 57.0864511 18.8381577 Z" />
+                <path
+                    android:name="Fill-27"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 72.6758298 13.9944509 L 70.3697872 12.6417158 L 68.6882553 14.3163611 L 71.8751489 15.1824167 Z" />
+                <path
+                    android:name="Fill-29"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 101.348885 18.0628269 L 99.0428426 16.7100919 L 97.3613106 18.3847372 L 100.548204 19.2507927 Z" />
+                <group
+                        android:name="Group-33"
+                        android:translateX="102.127660">
+                    <path
+                        android:name="Fill-31"
+                        android:fillColor="#FFFFFF"
+                        android:fillType="evenOdd"
+                        android:strokeWidth="1"
+                        android:pathData="M 4.32760851 1.50677393 L 2.02156596 0.154038889 L 0.340034043 1.82868419 L 3.52692766 2.69473974 Z" />
+                </group>
+                <path
+                    android:name="Fill-34"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 119.731864 62.0789944 L 117.425821 60.7262594 L 115.744289 62.4009047 L 118.931183 63.2669603 Z" />
+                <path
+                    android:name="Fill-36"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M51.3526979,32.8022483 L49.7186553,33.9124064 C49.7186553,33.7445859
+49.7702298,35.3851585 49.7702298,35.3851585 L51.1392511,36.4378509
+L53.7848681,36.0696628 L54.1029957,34.5455474 L51.3526979,32.8022483 Z" />
+                <path
+                    android:name="Fill-38"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M102.79103,39.2614056 L100.669838,40.7026278 C100.669838,40.4844611
+100.736732,42.6147645 100.736732,42.6147645 L102.513753,43.9817389
+L105.948306,43.5037047 L106.361413,41.5244397 L102.79103,39.2614056 Z" />
+                <path
+                    android:name="Fill-40"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M2.52689362,10.2816509 L0.405191489,11.7228731 C0.405191489,11.5047064
+0.472595745,13.6350098 0.472595745,13.6350098 L2.24910638,15.0019842
+L5.68417021,14.52395 L6.09676596,12.544685 L2.52689362,10.2816509 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

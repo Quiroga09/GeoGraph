@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="43dp"
+    android:height="43dp"
+    android:viewportWidth="43"
+    android:viewportHeight="43">
+
+    <group
+            android:name="24"
+            android:translateX="-12.000000"
+            android:translateY="-12.000000">
+        <group
+                android:name="Group-2"
+                android:translateX="12.000000"
+                android:translateY="12.000000">
+            <path
+                android:name="Oval-3"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 21.5 0 C 33.3741221214 0 43 9.62587787864 43 21.5 C 43 33.3741221214 33.3741221214 43 21.5 43 C 9.62587787864 43 0 33.3741221214 0 21.5 C 0 9.62587787864 9.62587787864 0 21.5 0 Z" />
+            <group
+                    android:name="home"
+                    android:translateX="10.000000"
+                    android:translateY="9.000000">
+                <path
+                    android:name="Shape"
+                    android:fillColor="#FFFFFF"
+                    android:strokeWidth="1"
+                    android:pathData="M22.7112207,10.6952451 L12.3175359,0.337379931 C12.099245,0.119847335
+11.8088495,0 11.5001416,0 C11.1912257,0 10.9008301,0.119739752
+10.6826433,0.337379931 L0.288854429,10.6952451 C-0.0592872933,11.0420923
+-0.0186048625,11.340312 0.0365401205,11.4818911 C0.0917891506,11.6233626
+0.256599817,11.8697274 0.740002819,11.8697274 L1.91032502,11.8697274
+L1.91032502,21.075595 C1.91032502,22.0337282 2.70899085,22.8431818
+3.61336857,22.8431818 L8.88148325,22.8431818 L8.88148325,16.6033744
+L13.979793,16.6033744 L13.979793,22.8431818 L19.3866025,22.8431818
+C20.2938936,22.8431818 21.0549984,22.0171604 21.0549984,21.075595
+L21.0549984,11.8697274 L22.2599683,11.8697274 C22.7433713,11.8697274
+22.9080779,11.6233626 22.963431,11.4818911 C23.0185759,11.340312
+23.0593624,11.0421999 22.7112207,10.6952451 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

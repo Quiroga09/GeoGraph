@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-2110.000000"
+            android:translateY="-311.000000">
+        <group
+                android:name="Antigua-and-Barbuda"
+                android:translateX="2110.000000"
+                android:translateY="311.000000">
+            <path
+                android:name="Fill-2872"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.181182266 17.4674987 L 29.9423645 17.4674987 L 29.9423645 8.92241379e-05 L 0.181182266 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-2873"
+                android:fillColor="#006FC6"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.181182266 10.6311453 L 29.9423645 10.6311453 L 29.9423645 6.83555043 L 0.181182266 6.83555043 Z" />
+            <path
+                android:name="Fill-2874"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.181182266 6.83465819 L 29.9423645 6.83465819 L 29.9423645 8.92241379e-05 L 0.181182266 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-2875"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M29.9419212,0.000356896552 L15.0622167,17.4677664 L29.9419212,17.4677664
+L29.9419212,0.000356896552 Z M0.180738916,0.000356896552 L0.180738916,17.4677664
+L15.0622167,17.4677664 L0.180738916,0.000356896552 Z" />
+            <path
+                android:name="Fill-2876"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 17.8919409 6.26746034 L 20.2913498 4.65518017 L 17.4610049 5.22086121 L 19.0632709 2.80556379 L 16.6629754 4.41873621 L 17.2286897 1.57070172 L 15.6228768 3.9851069 L 15.0607094 1.13707241 L 14.4976552 3.9851069 L 12.8945025 1.57070172 L 13.45667 4.41873621 L 11.0590345 2.80556379 L 12.6604138 5.22086121 L 9.83184236 4.65518017 L 12.2303645 6.26746034 L 9.4000197 6.83492586 L 20.7205123 6.83492586 Z" />
+        </group>
+    </group>
+</vector>

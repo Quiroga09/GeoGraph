@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="63dp"
+    android:height="36dp"
+    android:viewportWidth="63"
+    android:viewportHeight="36">
+
+    <path
+        android:name="Rectangle-7-Copy-4"
+        android:fillColor="#03A4FF"
+        android:fillType="evenOdd"
+        android:strokeWidth="1"
+        android:pathData="M 0 0 H 63 V 36 H 0 V 0 Z" />
+    <group
+            android:name="Material/Icons-black/chevron-right"
+            android:translateX="21.000000"
+            android:translateY="6.000000">
+        <path
+            android:name="Shape"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 8.59997559 7.4 L 9.99997559 6 L 15.9999756 12 L 9.99997559 18 L 8.59997559 16.6 L 13.1999756 12 Z" />
+    </group>
+    <path
+        android:name="Oval-4"
+        android:fillType="evenOdd"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M 32 5 C 39.1797017478 5 45 10.8202982522 45 18 C 45 25.1797017478 39.1797017478 31 32 31 C 24.8202982522 31 19 25.1797017478 19 18 C 19 10.8202982522 24.8202982522 5 32 5 Z" />
+</vector>

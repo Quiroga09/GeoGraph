@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="59dp"
+    android:viewportWidth="28"
+    android:viewportHeight="59">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-1043.000000"
+            android:translateY="-532.000000">
+        <group
+                android:name="St.-Vincent-and-the-Grenadines"
+                android:translateX="1043.000000"
+                android:translateY="532.000000">
+            <path
+                android:name="Stroke-1"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:strokeLineJoin="round"
+                android:strokeLineCap="round"
+                android:pathData="M17.1154667,34.7627 L17.1331333,34.7980333" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 23.8182 0.00706666667 L 21.3095333 20.2177333 L 27.2102 8.6814 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 2.7984 49.3447667 L 0.00706666667 58.6197667 L 9.2644 58.9024333 L 14.0167333 52.4541 L 10.9250667 47.7017667 Z" />
+            <path
+                android:name="Fill-4"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M21.0304,42.0784667 L17.1437333,34.7998 C17.1084,35.4534667 15.1474,42.0784667
+15.1474,42.0784667 L21.0304,42.0784667 Z" />
+        </group>
+    </group>
+</vector>

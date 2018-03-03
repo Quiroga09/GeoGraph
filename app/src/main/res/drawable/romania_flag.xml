@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-1308.000000"
+            android:translateY="-459.000000">
+        <group
+                android:name="Romania"
+                android:translateX="1308.000000"
+                android:translateY="459.000000">
+            <path
+                android:name="Fill-1345"
+                android:fillColor="#0B2680"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.110331191 17.5224718 L 10.0641621 17.5224718 L 10.0641621 8.94957983e-05 L 0.110331191 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-1346"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.0641621 17.5224718 L 20.0188828 17.5224718 L 20.0188828 8.94957983e-05 L 10.0641621 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-1347"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 20.0188828 17.5224718 L 29.9727138 17.5224718 L 29.9727138 8.94957983e-05 L 20.0188828 8.94957983e-05 Z" />
+        </group>
+    </group>
+</vector>

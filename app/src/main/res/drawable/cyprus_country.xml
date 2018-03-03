@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="76dp"
+    android:height="45dp"
+    android:viewportWidth="76"
+    android:viewportHeight="45">
+
+    <group
+            android:name="PAISOS-2-Copy-2"
+            android:translateX="-49.000000"
+            android:translateY="-274.000000">
+        <path
+            android:name="Page-1"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 119.079867 274.715017 L 108.483543 281.355173 L 93.2173907 287.266153 L 84.3276494 287.747098 L 77.4392635 284.302906 L 70.7991077 284.302906 L 70.5508775 288.755533 L 68.5960653 293.192647 L 63.9107217 294.666513 L 57.2550515 291.951496 L 53.0661682 296.869556 L 49.1100006 297.862476 L 49.1100006 305.495552 L 53.5471141 311.902992 L 61.4439349 316.572822 L 70.7991077 316.091876 L 74.7397609 318.543148 L 78.6648997 315.347185 L 86.5462061 313.625089 L 93.7138509 306.969419 L 98.8801404 304.518146 L 107.987083 305.495552 L 108.483543 299.088112 L 105.784041 292.928902 L 113.417117 284.054675 L 121.298423 279.15213 L 125.006361 276.421599 L 123.005006 274.451272 Z" />
+    </group>
+</vector>

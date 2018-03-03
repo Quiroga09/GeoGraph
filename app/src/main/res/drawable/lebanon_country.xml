@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="61dp"
+    android:height="76dp"
+    android:viewportWidth="61"
+    android:viewportHeight="76">
+
+    <group
+            android:name="PAISOS-2-Copy-2"
+            android:translateX="-263.000000"
+            android:translateY="-275.000000">
+        <path
+            android:name="LEBANON"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 289.04 274.99559 L 288.872 277.43159 L 282.572 278.83859 L 280.493 311.78759 L 272.786 323.69459 L 264.365 335.62259 L 264.365 348.22259 L 263 349.73459 L 268.607 350.86859 L 283.265 350.53259 L 288.263 340.87259 L 292.904 340.62059 L 293.408 340.59959 L 294.605 340.53659 L 301.262 329.86859 L 304.916 317.16359 L 313.925 312.50159 L 318.944 312.50159 L 323.627 309.49859 L 320.288 302.50559 L 320.918 289.82159 L 312.917 285.85259 L 308.612 275.83559 Z" />
+    </group>
+</vector>

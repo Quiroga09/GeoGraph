@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-987.000000"
+            android:translateY="-607.000000">
+        <group
+                android:name="Ireland"
+                android:translateX="987.000000"
+                android:translateY="607.000000">
+            <path
+                android:name="Fill-458"
+                android:fillColor="#009B60"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.218823529 17.3784143 L 10.0905882 17.3784143 L 10.0905882 0.130247619 L 0.218823529 0.130247619 Z" />
+            <path
+                android:name="Fill-459"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.0905882 17.3784143 L 19.9614706 17.3784143 L 19.9614706 0.130247619 L 10.0905882 0.130247619 Z" />
+            <path
+                android:name="Fill-460"
+                android:fillColor="#FF7F40"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 19.9614706 17.3784143 L 29.8332353 17.3784143 L 29.8332353 0.130247619 L 19.9614706 0.130247619 Z" />
+        </group>
+    </group>
+</vector>

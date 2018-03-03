@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="red_clock">#f44336</color>
+    <color name="green_button">#67c100</color>
+    <color name="green_settings">#67c000</color>
+    <color name="green_settings_alpha">#0067c000</color>
+    <color name="yellow_button">#ffd600</color>
+    <color name="red_button">#ff5454</color>
+    <color name="blue_button">#03a4ff</color>
+    <color name="text_grey">#363636</color>
+    <color name="rectangle_grey">#979797</color>
+    <color name="sign_in_green">#54C500</color>
+    <color name="dark_red_button">#cc1639</color>
+    <color name="new_blue">#0f5970</color>
+    <color name="grey">#eaeaea</color>
+    <color name="pink_dark">#d01e42</color>
+    <color name="green_play">#43ad0f</color>
+    <color name="yellow_play">#f6b607</color>
+    <color name="blue_play">#316994</color>
+    <color name="dark_blue">#05496e</color>
+    <color name="blue_diff">#346d98</color>
+    <color name="blue_diff_alpha">#BF05496e </color>
+    <color name="yellow_diff">#f6ba0f</color>
+    <color name="green_diff">#44ae10</color>
+    <color name="grey_settings">#e2e2e2</color>
+    <color name="red_bar">#d0021d</color>
+    <color name="grey_bar">#f1f1f1</color>
+    <color name="dark_pink">#d22246</color>
+
+
+
+
+
+
+
+</resources>

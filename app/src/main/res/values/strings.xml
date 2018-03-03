@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Geograph</string>
+    <string name="number">3</string>
+    <string name="timer">00</string>
+    <string name="good"> 0</string>
+    <string name="facebook_app_id">1640389966257146</string>
+    <!--  <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+      <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-6607233061491513/8807696068</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6607233061491513/1128571788</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="a50_description">With 12 consecutive hits you win a 50% power-up. Use it to remove 2 of the 4 possible answers!</string>
+    <string name="skip_description">With 3 consecutive hits you win a SKIP power-up. Use it to skip the question without losing points or your streak!</string>
+    <string name="time_description">With 9 consecutive hits you win a STOP power-up. Use it to stop the time for 5 seconds or until you answer!</string>
+    <string name="a25_description">With 6 consecutive hits you win a 25% power-up. Use it to remove 1 of the 4 possible answers!</string>
+    <string name="extra_description">In addition, every time you get 5 consecutive hits, you will gain extra time to continue playing!</string>
+    <string name="game0_title">Country / Shape</string>
+    <string name="game1_title">Flag / Country</string>
+    <string name="game2_title">Country / Flag</string>
+    <string name="game3_title">Capitals</string>
+    <string name="scores_title">Scores</string>
+    <string name="settings_title">Settings</string>
+    <string name="Power_up">Power-ups</string>
+    <string name="score">Ranking </string>
+    <string name="best_score">BEST SCORE</string>
+    <string name="crash_toast_text">Ooooops ! I crashed, sorry!</string>
+    <string name="backpressed_main">Press Back again to Exit.</string>
+    <string name="backpressed_game">Press Back again to return to main menu.</string>
+    <string name="time_out">Time out!</string>
+    <string name="signin_other_error">Login Error</string>
+    <string name="TEST_ID">"646C33D6AA1F9A8EE024EA44C5D34086"</string>
+    <string name="sign_in">Sign in with Google</string>
+    <string name="no_login">Continue without signin in</string>
+    <string name="play">Play</string>
+    <string name="practice">Practice mode</string>
+    <string name="vibration">Vibration</string>
+    <string name="select_language">Select your language</string>
+    <string name="how_to_play_title">How to play</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="login_achievments">If you want to see GeoGraph achievements please, log in into Google Play Games.</string>
+    <string name="no_login_achievments">No thanks, I don\'t want to see the achievements.</string>
+    <string name="points">Earned points:</string>
+    <string name="back_main">Back to main menu</string>
+    <string name="achievements">Achievements</string>
+    <string name="login_popup">If you want to sync your progress you need to sign in with Google.</string>
+    <string name="locked">To unlock this level you need to reach 50 correct answers and more than 2000 points in the previous difficulty mode</string>
+    <string name="locked_nologed">To unlock this level you need to reach 50 correct answers and more than 2000 points in the previous difficulty mode. You can sign in with Google to sync your progress.</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="OK_button">OK</string>
+    <string name="rate">Rate GeoGraph</string>
+    <string name="rate_message">If you enjoy playing GeoGraph, please take a moment to rate it. Thanks for your support!</string>
+    <string name="no_button">No, thanks</string>
+    <string name="remind_me_later">Remind me later</string>
+
+</resources>

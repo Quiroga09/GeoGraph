@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="42dp"
+    android:height="59dp"
+    android:viewportWidth="42"
+    android:viewportHeight="59">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-749.000000"
+            android:translateY="-348.000000">
+        <path
+            android:name="Luxembourg"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 763.054667 348.540333 L 759.126 348.540333 L 755.612333 359.136667 L 749 367.907 L 752.956333 373.163667 L 752.956333 381.546667 L 757.798 385.918 L 757.798 392.502667 L 758.683333 392.502667 L 765.683 403.956667 L 781.093333 407 L 789.614667 404.869667 L 790.749 385.503 L 784.136667 379.776 L 781.508333 366.606667 L 767.011 348.540333 Z" />
+    </group>
+</vector>

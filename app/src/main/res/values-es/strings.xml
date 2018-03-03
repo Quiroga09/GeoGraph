@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Geograph</string>
+    <string name="number">3</string>
+    <string name="timer">00</string>
+    <string name="good"> 0</string>
+    <string name="facebook_app_id">1640389966257146</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-6607233061491513/8807696068</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6607233061491513/1128571788</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="a50_description">Acumula 12 aciertos consecutivos y gana un comodín 50%. Utilízalo para eliminar 2 de las 4 posibles respuestas!</string>
+    <string name="skip_description">Acumula 3 aciertos consecutivos y gana un comodín SKIP. Utilízalo para saltar la pregunta sin perder puntos ni racha!</string>
+    <string name="time_description">Acumula 9 aciertos consecutivos y gana un comodín STOP. Utilízalo para detener el tiempo durante 5 segundos o hasta responder!</string>
+    <string name="a25_description">Acumula 6 aciertos consecutivos y gana un comodín 25%. Utilízalo para eliminar 1 de las 4 posibles respuestas!</string>
+    <string name="extra_description">¡Cada vez que consigas 5 aciertos consecutivos ganarás más tiempo para seguir jugando!</string>
+    <string name="game0_title">País / Silueta</string>
+    <string name="game1_title">Bandera / País</string>
+    <string name="game2_title">País / Bandera</string>
+    <string name="game3_title">Capitales</string>
+    <string name="scores_title">Puntuaciones</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="Power_up">Potenciadores</string>
+    <string name="score">Clasificación </string>
+    <string name="best_score">MEJOR PUNTUACIÓN</string>
+    <string name="crash_toast_text">Ooooops! Error, lo siento!</string>
+    <string name="backpressed_main">Pulsa atrás de nuevo para salir.</string>
+    <string name="backpressed_game">Pulsa atrás de nuevo para volver al menú.</string>
+    <string name="time_out">Tiempo!</string>
+    <string name="signin_other_error">Error al iniciar sessión</string>
+    <string name="TEST_ID">646C33D6AA1F9A8EE024EA44C5D34086</string>
+    <string name="sign_in">Iniciar sesión con Google</string>
+    <string name="no_login">Continuar sin iniciar sesión</string>
+    <string name="play">Jugar</string>
+    <string name="practice">Modo práctica</string>
+    <string name="vibration">Vibración</string>
+    <string name="select_language">Selecciona tu idioma</string>
+    <string name="how_to_play_title">Cómo jugar</string>
+    <string name="easy">Fácil</string>
+    <string name="medium">Medio</string>
+    <string name="hard">Difícil</string>
+    <string name="login_achievments">Si quieres ver los logros de GeoGraph, por favor inicia sesión en los servicios de Google Play Games.</string>
+    <string name="no_login_achievments">No gracias, no quiero ver los logros.</string>
+    <string name="points">Puntos conseguidos:</string>
+    <string name="back_main">Volver al menú principal</string>
+    <string name="achievements">Logros</string>
+    <string name="login_popup">Si quieres sincronizar tu progreso deberás inciar sesión con Google.</string>
+    <string name="locked">Para desbloquear este nivel necesitas acertar 50 respuestas y conseguir más de 2000 puntos en una partida del modo de dificultad anterior.</string>
+    <string name="locked_nologed">Para jugar a este modo de dificultad tienes que iniciar sessión con Google. Puedes sincronizar tu progreso iniciando sesión con Google</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="OK_button">OK</string>
+    <string name="rate">Valorars GeoGraph</string>
+    <string name="rate_message">Si disfrutas jugando a GeoGraph, por favor, tómate un momento para valorarla. Gracias por tu ayuda!</string>
+    <string name="no_button">No, gracias</string>
+    <string name="remind_me_later">Recuérdamelo más tarde</string>
+
+</resources>

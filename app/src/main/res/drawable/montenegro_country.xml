@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="55dp"
+    android:height="55dp"
+    android:viewportWidth="55"
+    android:viewportHeight="55">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-249.000000"
+            android:translateY="-531.000000">
+        <path
+            android:name="MONTENEGRO"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 263.110515 530.998894 L 259.389213 533.111423 L 259.59672 536.794524 L 265.07492 539.614917 L 267.066993 543.109991 L 262.474158 545.067676 L 258.061164 545.410547 L 255.640242 550.310288 L 255.460402 556.824841 L 251.91894 562.100634 L 249 563.339395 L 251.08891 565.551468 L 257.078962 567.586574 L 268.505712 579.02299 L 269.418745 582.717151 L 276.183492 585.42694 L 276.750679 576.490167 L 280.900831 569.466836 L 287.292064 563.317274 L 289.463977 563.671206 L 293.199113 568.06217 L 298.469805 562.797437 L 299.369005 560.165071 L 303.975673 557.001807 L 303.519156 551.549048 L 295.85521 550.498314 L 290.999533 546.804153 L 284.207118 546.804153 L 281.343514 544.182847 L 281.343514 540.31172 L 274.896945 535.290315 L 274.315924 535.74379 L 269.501748 534.505029 Z" />
+    </group>
+</vector>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="95dp"
+    android:height="78dp"
+    android:viewportWidth="95"
+    android:viewportHeight="78">
+
+    <group
+            android:name="PAISOS-2"
+            android:translateX="-1195.000000"
+            android:translateY="-413.000000">
+        <group
+                android:name="SAINT-KITTS-ANS-NEVIS"
+                android:translateX="1195.000000"
+                android:translateY="413.000000">
+            <path
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 76.7134215 37.8762647 L 86.8575215 47.2773676 L 89.8473615 36.5869706 L 85.2024315 26.7829632 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 19.4846805 52.3808235 L 25.8380905 61.3253015 L 38.1177905 63.0175 L 27.9736905 46.4178382 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 75.8485035 71.1158787 L 81.3743685 77.5086287 L 94.4816135 72.8886581 L 76.7027435 61.3118713 Z" />
+            <path
+                android:name="Fill-4"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 9.754353 0.744594118 L 0.010678 7.97001324 L 1.692463 13.610675 L 15.653948 23.3341015 L 16.107763 10.5486015 L 25.023893 0.314829412 Z" />
+        </group>
+    </group>
+</vector>

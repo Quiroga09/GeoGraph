@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="25dp"
+    android:height="37dp"
+    android:viewportWidth="25"
+    android:viewportHeight="37">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-871.000000"
+            android:translateY="-535.000000">
+        <path
+            android:name="St.-Lucia"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M871.416935,553.305381 L871.496,555.198 L878.409,572 L889.786,569.768
+L895.955,557.678 L892.266,548.781 L893.280485,543.31003 L893.280485,543.31003
+C893.733349,540.867799 892.980476,538.357077 891.2585,536.567 L891.2585,536.567
+L891.2585,536.567 C889.639429,534.883898 887.093042,534.49519
+885.045556,535.618589 L879.7575,538.52 L879.7575,538.52 C874.393536,541.46306
+871.161563,547.192403 871.416935,553.305381 Z" />
+    </group>
+</vector>

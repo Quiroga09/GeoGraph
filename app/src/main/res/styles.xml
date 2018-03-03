@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+    <item name="android:minWidth">0dp</item>
+    <item name="android:padding">12dp</item>
+    <item name="android:scaleType">centerInside</item>
+</style>

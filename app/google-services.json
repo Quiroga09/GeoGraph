@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170079814520",
+    "firebase_url": "https://geograph-c924d.firebaseio.com",
+    "project_id": "geograph-c924d",
+    "storage_bucket": "geograph-c924d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170079814520:android:c6b122d5395e84a3",
+        "android_client_info": {
+          "package_name": "com.twentyfourkapps.geograph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170079814520-j624o3dp2e9jre2jnth5bbp9mt120dkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.twentyfourkapps.geograph",
+            "certificate_hash": "9f360f763df2b166df97e5ff57062116be37930c"
+          }
+        },
+        {
+          "client_id": "170079814520-8fqbgbi0868m3rk3g3ao9i6hj2ugnc8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYh9LayBimA8gwu0nrLBcm9ZUiTA9I7Bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170079814520-8fqbgbi0868m3rk3g3ao9i6hj2ugnc8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

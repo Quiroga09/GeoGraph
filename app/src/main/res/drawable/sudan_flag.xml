@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-529.000000"
+            android:translateY="-65.000000">
+        <group
+                android:name="Sudan"
+                android:translateX="529.000000"
+                android:translateY="65.000000">
+            <path
+                android:name="Fill-65"
+                android:fillColor="#E00039"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.216176471 5.789695 L 29.8305882 5.789695 L 29.8305882 0.0005325 L 0.216176471 0.0005325 Z" />
+            <path
+                android:name="Fill-66"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.216176471 11.5859575 L 29.8305882 11.5859575 L 29.8305882 5.789695 L 0.216176471 5.789695 Z" />
+            <path
+                android:name="Fill-67"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.216176471 17.37512 L 29.8305882 17.37512 L 29.8305882 11.5859575 L 0.216176471 11.5859575 Z" />
+            <path
+                android:name="Fill-68"
+                android:fillColor="#007522"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.216352941 0.0001775 L 0.216352941 17.3756525 L 11.7337059 8.684365 Z" />
+        </group>
+    </group>
+</vector>

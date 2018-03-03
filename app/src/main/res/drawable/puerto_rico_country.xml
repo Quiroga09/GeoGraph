@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="113dp"
+    android:height="35dp"
+    android:viewportWidth="113"
+    android:viewportHeight="35">
+
+    <group
+            android:name="PAISOS-2"
+            android:translateX="-412.000000"
+            android:translateY="-412.000000">
+        <group
+                android:name="PUERTO-RICO"
+                android:translateX="412.000000"
+                android:translateY="412.000000">
+            <path
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 99.35836 34.7727273 L 112.517159 32.9888636 L 108.0492 28.4722727 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 71.3459535 24.9178295 L 86.6727498 24.0069205 L 89.8022063 21.2741932 L 78.2269875 18.1429432 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.46545055 6.76227273 L 0.26393007 10.3679545 L 1.18768531 16.1180682 L 0 20.3310227 L 3.60076024 27.2956818 L 23.338959 28.2065909 L 28.7495255 30.0094318 L 43.09601 26.3657955 L 48.4877243 29.0795455 L 62.2497922 22.7411364 L 73.0332208 10.9942045 L 65.2284316 8.60306818 L 63.1546953 3.47920455 L 58.0646154 1.05011364 L 40.9845694 3.47920455 L 10.7834286 0.784431818 Z" />
+        </group>
+    </group>
+</vector>

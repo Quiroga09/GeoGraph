@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="54dp"
+    android:height="46dp"
+    android:viewportWidth="54"
+    android:viewportHeight="46">
+
+    <group
+            android:name="PAISOS-2-Copy"
+            android:translateX="-973.000000"
+            android:translateY="-1069.000000">
+        <group
+                android:name="FIJI"
+                android:translateX="972.000000"
+                android:translateY="1069.000000">
+            <path
+                android:name="Fill-1"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 54.352 0.00236142857 L 48.3832857 4.92064714 L 45.2808571 4.92064714 L 41.128 9.83893286 L 36.7308571 7.51007571 L 32.5942857 10.0995043 L 27.9284286 10.0995043 L 25.0784286 15.7832186 L 29.9885714 19.9360757 L 31.552 16.8255043 L 36.2097143 17.5990757 L 37.5125714 15.2783614 L 41.3885714 15.5389329 L 41.6491429 18.1120757 L 50.7121429 16.8255043 L 53.0491429 12.9332186 L 52.0068571 10.8812186 L 48.9044286 14.4966471 L 45.7857143 13.9755043 L 51.2251429 9.05721857 L 51.2251429 5.67793286 L 54.8487143 2.31493286 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 11.3552714 27.1767043 L 5.13412857 32.6242757 L 4.62112857 36.2315614 L 0.997557143 37.5425614 L 0.997557143 41.9397043 L 6.94998571 45.0584186 L 14.9869857 45.83199 L 17.8207 44.00799 L 22.4865571 44.7897043 L 27.4129857 41.9397043 L 25.5971286 31.8344186 L 19.1154143 25.3771329 Z" />
+        </group>
+    </group>
+</vector>

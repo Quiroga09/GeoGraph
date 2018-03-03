@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="46dp"
+    android:height="37dp"
+    android:viewportWidth="46"
+    android:viewportHeight="37">
+
+    <group
+            android:name="PAISOS-2-Copy-4"
+            android:translateX="-790.000000"
+            android:translateY="-142.000000">
+        <group
+                android:name="BRUNEI"
+                android:translateX="790.000000"
+                android:translateY="126.000000">
+            <path
+                android:name="Fill-1"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 25.3605 19.0058 L 16.0855 26.0194667 L 1.81083333 30.3124667 L -0.00883333333 32.6621333 L 5.8565 35.2414667 L 9.90216667 35.6478 L 16.6685 47.0781333 L 24.2651667 52.9964667 L 28.3285 51.0178 L 25.6785 33.7044667 L 29.8831667 27.3798 L 33.2928333 26.9204667 L 33.4695 24.0938 L 32.9218333 16.2498 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 37.9533 27.4487 L 34.5613 28.2613667 L 36.1866333 35.2397 L 36.9109667 44.9740333 L 42.1226333 47.9243667 L 45.4793 41.3170333 L 40.7093 27.7843667 L 39.9496333 24.7280333 Z" />
+        </group>
+    </group>
+</vector>

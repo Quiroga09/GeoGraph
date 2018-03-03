@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-374.000000"
+            android:translateY="-460.000000">
+        <group
+                android:name="Sweden"
+                android:translateX="374.000000"
+                android:translateY="460.000000">
+            <path
+                android:name="Fill-1637"
+                android:fillColor="#005A98"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.101433515 17.5206819 L 29.9664854 17.5206819 L 29.9664854 8.94957983e-05 L 0.101433515 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-1638"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 8.81225902 17.5206819 L 12.2983688 17.5206819 L 12.2983688 8.94957983e-05 L 8.81225902 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-1639"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.101433515 10.512266 L 29.9664854 10.512266 L 29.9664854 7.00850546 L 0.101433515 7.00850546 Z" />
+        </group>
+    </group>
+</vector>

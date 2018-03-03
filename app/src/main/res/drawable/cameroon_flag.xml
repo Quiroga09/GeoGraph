@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-987.000000"
+            android:translateY="-493.000000">
+        <group
+                android:name="Cameroon"
+                android:translateX="987.000000"
+                android:translateY="493.000000">
+            <path
+                android:name="Fill-338"
+                android:fillColor="#007C5C"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.217941176 17.6252088 L 10.0897059 17.6252088 L 10.0897059 0.24973375 L 0.217941176 0.24973375 Z" />
+            <path
+                android:name="Fill-339"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.0897059 17.6252088 L 19.9597059 17.6252088 L 19.9597059 0.24973375 L 10.0897059 0.24973375 Z" />
+            <path
+                android:name="Fill-340"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 19.9597059 17.6252088 L 29.8323529 17.6252088 L 29.8323529 0.24973375 L 19.9597059 0.24973375 Z" />
+            <path
+                android:name="Fill-341"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 15.9806471 9.24987125 L 17.5291765 8.12274625 L 15.6162353 8.12274625 L 15.0259412 6.28917125 L 14.4338824 8.12274625 L 12.5218235 8.12274625 L 14.0694706 9.24987125 L 13.4782941 11.0772337 L 15.0259412 9.95010875 L 16.5727059 11.0772337 Z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-1144.000000"
+            android:translateY="-351.000000">
+        <group
+                android:name="East-Timor"
+                android:translateX="1144.000000"
+                android:translateY="351.000000">
+            <path
+                android:name="Fill-3264"
+                android:fillColor="#EA1029"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 17.7696504 L 29.8641621 17.7696504 L 29.8641621 0.251742857 L 0 0.251742857 Z" />
+            <path
+                android:name="Fill-3265"
+                android:fillColor="#FFC71E"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 0.252011345 L 0 17.7699189 L 17.4207612 9.01007017 Z" />
+            <path
+                android:name="Fill-3266"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 0.252011345 L 0 17.7699189 L 11.6141374 9.01007017 Z" />
+            <path
+                android:name="Fill-3267"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 6.47697479 6.76497857 L 5.50890756 8.72941134 L 7.13006426 10.1908777 L 4.90475531 9.95013403 L 3.92868018 11.9074071 L 3.52294612 9.7890416 L 1.30030648 9.54113824 L 3.27114187 8.47434832 L 2.87252595 6.35956261 L 4.49991102 7.81744916 Z" />
+        </group>
+    </group>
+</vector>

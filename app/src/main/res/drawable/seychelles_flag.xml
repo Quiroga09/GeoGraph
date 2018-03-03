@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-1303.000000"
+            android:translateY="-66.000000">
+        <group
+                android:name="Seychelles"
+                android:translateX="1303.000000"
+                android:translateY="66.000000">
+            <path
+                android:name="Fill-38"
+                android:fillColor="#003C87"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0266009852 0.000178448276 L 0.0266009852 17.4684802 L 10.7255172 0.000178448276 Z" />
+            <path
+                android:name="Fill-39"
+                android:fillColor="#FFD852"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.7257833 0.000178448276 L 0.0268669951 17.4684802 L 21.4238128 0.000178448276 Z" />
+            <path
+                android:name="Fill-40"
+                android:fillColor="#E5172F"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 21.4233695 0.000178448276 L 0.0264236453 17.4684802 L 29.7884926 6.670575 L 29.7884926 0.000178448276 Z" />
+            <path
+                android:name="Fill-41"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0266009852 17.4682125 L 29.78867 12.0665832 L 29.78867 6.67119957 Z" />
+            <path
+                android:name="Fill-42"
+                android:fillColor="#007C39"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0266009852 17.4682125 L 29.78867 17.4682125 L 29.78867 12.0665832 Z" />
+        </group>
+    </group>
+</vector>

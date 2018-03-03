@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-531.000000"
+            android:translateY="-223.000000">
+        <group
+                android:name="Russia"
+                android:translateX="531.000000"
+                android:translateY="223.000000">
+            <path
+                android:name="Fill-883"
+                android:fillColor="#F4F4F4"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.248498168 5.84791209 L 29.7544322 5.84791209 L 29.7544322 0.109010989 L 0.248498168 0.109010989 Z" />
+            <path
+                android:name="Fill-884"
+                android:fillColor="#283C99"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.248498168 11.5859341 L 29.7544322 11.5859341 L 29.7544322 5.84791209 L 0.248498168 5.84791209 Z" />
+            <path
+                android:name="Fill-885"
+                android:fillColor="#FC0019"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.248498168 17.3248352 L 29.7544322 17.3248352 L 29.7544322 11.5859341 L 0.248498168 11.5859341 Z" />
+        </group>
+    </group>
+</vector>

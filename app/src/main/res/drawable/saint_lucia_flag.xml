@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-1954.000000"
+            android:translateY="-176.000000">
+        <group
+                android:name="Saint-Lucia"
+                android:translateX="1954.000000"
+                android:translateY="176.000000">
+            <path
+                android:name="Fill-6826"
+                android:fillColor="#41CDFE"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 17.5224718 L 29.8632724 17.5224718 L 29.8632724 8.94957983e-05 L 0 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-6827"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 9.1244785 15.9773269 L 20.7377261 15.9773269 L 14.9293228 1.54165462 Z" />
+            <path
+                android:name="Fill-6828"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 9.90658428 15.9773269 L 19.9529511 15.9773269 L 14.9302126 3.48908319 Z" />
+            <path
+                android:name="Fill-6829"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 9.1244785 16.0061445 L 20.7377261 16.0061445 L 14.9293228 8.79009832 Z" />
+        </group>
+    </group>
+</vector>

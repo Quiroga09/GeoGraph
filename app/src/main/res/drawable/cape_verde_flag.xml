@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-832.000000"
+            android:translateY="-493.000000">
+        <group
+                android:name="Cabo-Verde"
+                android:translateX="832.000000"
+                android:translateY="493.000000">
+            <path
+                android:name="Fill-342"
+                android:fillColor="#0B3393"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.110331191 17.7733197 L 29.9727138 17.7733197 L 29.9727138 0.251832353 L 0.110331191 0.251832353 Z" />
+            <path
+                android:name="Fill-343"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.110331191 13.3933954 L 29.9727138 13.3933954 L 29.9727138 9.00899622 L 0.110331191 9.00899622 Z" />
+            <path
+                android:name="Fill-344"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.110331191 11.9355088 L 29.9727138 11.9355088 L 29.9727138 10.4740424 L 0.110331191 10.4740424 Z" />
+            <path
+                android:name="Fill-345"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 11.2133861 5.94698697 L 11.0185269 6.55197857 L 10.3850124 6.55197857 L 10.8984083 6.92965084 L 10.7035492 7.53106261 L 11.2133861 7.15697017 L 11.7258922 7.53106261 L 11.5310331 6.92965084 L 12.0435393 6.55197857 L 11.4109145 6.55197857 Z" />
+            <path
+                android:name="Fill-346"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 8.65441424 6.78601008 L 8.45955512 7.39100168 L 7.82515077 7.39100168 L 8.33943648 7.76509412 L 8.14368759 8.37008571 L 8.65441424 7.99599328 L 9.16692042 8.37008571 L 8.97117153 7.76509412 L 9.48278794 7.39100168 L 8.85194266 7.39100168 Z" />
+            <path
+                android:name="Fill-347"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.07303015 8.97445084 L 6.87728127 9.58302227 L 6.24465645 9.58302227 L 6.75716263 9.95353487 L 6.56141374 10.5585265 L 7.07303015 10.184434 L 7.58553633 10.5585265 L 7.38800791 9.95353487 L 7.90140386 9.58302227 L 7.26788927 9.58302227 Z" />
+            <path
+                android:name="Fill-348"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.07303015 11.6803563 L 6.87728127 12.2889277 L 6.24465645 12.2889277 L 6.75716263 12.6594403 L 6.56141374 13.2671168 L 7.07303015 12.8930244 L 7.58553633 13.2671168 L 7.38800791 12.6594403 L 7.90140386 12.2889277 L 7.26788927 12.2889277 Z" />
+            <path
+                android:name="Fill-349"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 8.65441424 13.8722874 L 8.45955512 14.477279 L 7.82515077 14.477279 L 8.33943648 14.8549513 L 8.14368759 15.456363 L 8.65441424 15.0849555 L 9.16692042 15.456363 L 8.97117153 14.8549513 L 9.48278794 14.477279 L 8.85194266 14.477279 Z" />
+            <path
+                android:name="Fill-350"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 11.2133861 14.7078202 L 11.0185269 15.3128118 L 10.3850124 15.3128118 L 10.8984083 15.6869042 L 10.7035492 16.2918958 L 11.2133861 15.9178034 L 11.7258922 16.2918958 L 11.5310331 15.6869042 L 12.0435393 15.3128118 L 11.4109145 15.3128118 Z" />
+            <path
+                android:name="Fill-351"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 13.7740484 13.8722874 L 13.5774098 14.477279 L 12.9465645 14.477279 L 13.4572912 14.8549513 L 13.262432 15.456363 L 13.7740484 15.0849555 L 14.2865546 15.456363 L 14.089916 14.8549513 L 14.6033119 14.477279 L 13.9689076 14.477279 Z" />
+            <path
+                android:name="Fill-352"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 15.3564113 8.97445084 L 15.1588828 9.58302227 L 14.5271478 9.58302227 L 15.0414335 9.95353487 L 14.8456846 10.5585265 L 15.3564113 10.184434 L 15.8689174 10.5585265 L 15.671389 9.95353487 L 16.184785 9.58302227 L 15.5512704 9.58302227 Z" />
+            <path
+                android:name="Fill-353"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 15.3564113 11.6803563 L 15.1588828 12.2889277 L 14.5271478 12.2889277 L 15.0414335 12.6594403 L 14.8456846 13.2671168 L 15.3564113 12.8930244 L 15.8689174 13.2671168 L 15.671389 12.6594403 L 16.184785 12.2889277 L 15.5512704 12.2889277 Z" />
+            <path
+                android:name="Fill-354"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 13.7740484 6.78601008 L 13.5774098 7.39100168 L 12.9465645 7.39100168 L 13.4572912 7.76509412 L 13.262432 8.37008571 L 13.7740484 7.99599328 L 14.2865546 8.37008571 L 14.089916 7.76509412 L 14.6033119 7.39100168 L 13.9689076 7.39100168 Z" />
+        </group>
+    </group>
+</vector>

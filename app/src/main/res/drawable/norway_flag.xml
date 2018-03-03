@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-2593.000000"
+            android:translateY="-175.000000">
+        <group
+                android:name="Norway"
+                android:translateX="2593.000000"
+                android:translateY="175.000000">
+            <path
+                android:name="Fill-1062"
+                android:fillColor="#FF1635"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.180295567 17.4692832 L 29.9414778 17.4692832 L 29.9414778 8.92241379e-05 L 0.180295567 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-1063"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 6.69133005 17.4692832 L 11.0299507 17.4692832 L 11.0299507 8.92241379e-05 L 6.69133005 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-1064"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.180295567 10.918447 L 29.9414778 10.918447 L 29.9414778 6.55181767 L 0.180295567 6.55181767 Z" />
+            <path
+                android:name="Fill-1065"
+                android:fillColor="#052469"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.77487685 17.4692832 L 9.94551724 17.4692832 L 9.94551724 8.92241379e-05 L 7.77487685 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-1066"
+                android:fillColor="#052469"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.180295567 9.82723578 L 29.9414778 9.82723578 L 29.9414778 7.64392112 L 0.180295567 7.64392112 Z" />
+        </group>
+    </group>
+</vector>

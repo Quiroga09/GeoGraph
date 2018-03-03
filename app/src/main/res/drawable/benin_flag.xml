@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-1630.000000"
+            android:translateY="-494.000000">
+        <group
+                android:name="Benin"
+                android:translateX="1630.000000"
+                android:translateY="494.000000">
+            <path
+                android:name="Fill-307"
+                android:fillColor="#00884E"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.143349754 17.7266547 L 10.5594089 17.7266547 L 10.5594089 0.258353017 L 0.143349754 0.258353017 Z" />
+            <path
+                android:name="Fill-308"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.5585222 8.98893491 L 29.9027586 8.98893491 L 29.9027586 0.258353017 L 10.5585222 0.258353017 Z" />
+            <path
+                android:name="Fill-309"
+                android:fillColor="#F80035"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.5585222 17.7266547 L 29.9027586 17.7266547 L 29.9027586 8.98893491 L 10.5585222 8.98893491 Z" />
+        </group>
+    </group>
+</vector>

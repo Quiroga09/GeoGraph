@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-1954.000000"
+            android:translateY="-220.000000">
+        <group
+                android:name="Laos"
+                android:translateX="1954.000000"
+                android:translateY="220.000000">
+            <path
+                android:name="Fill-298"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.217941176 17.3755637 L 29.8314706 17.3755637 L 29.8314706 8.875e-05 L 0.217941176 8.875e-05 Z" />
+            <path
+                android:name="Fill-299"
+                android:fillColor="#052469"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.217941176 13.0321387 L 29.8314706 13.0321387 L 29.8314706 4.34440125 L 0.217941176 4.34440125 Z" />
+            <path
+                android:name="Fill-300"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M15.0241765,5.2140625 C16.9335882,5.2140625 18.4803529,6.7671875
+18.4803529,8.6877375 C18.4803529,10.6047375 16.9335882,12.1649625
+15.0241765,12.1649625 C13.1156471,12.1649625 11.5688824,10.6047375
+11.5688824,8.6877375 C11.5688824,6.7671875 13.1156471,5.2140625
+15.0241765,5.2140625" />
+        </group>
+    </group>
+</vector>

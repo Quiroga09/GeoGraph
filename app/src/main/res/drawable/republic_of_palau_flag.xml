@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-217.000000"
+            android:translateY="-178.000000">
+        <group
+                android:name="Palau"
+                android:translateX="217.000000"
+                android:translateY="178.000000">
+            <path
+                android:name="Fill-403"
+                android:fillColor="#25ACD5"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0753336629 17.5243625 L 29.938606 17.5243625 L 29.938606 0.131253301 L 0.0753336629 0.131253301 Z" />
+            <path
+                android:name="Fill-404"
+                android:fillColor="#FFDF00"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M12.2698665,3.6117407 C15.1562729,3.6117407 17.4963618,5.9490036
+17.4963618,8.82816327 C17.4963618,11.709988 15.1562729,14.0463625
+12.2698665,14.0463625 C9.38434998,14.0463625 7.044261,11.709988
+7.044261,8.82816327 C7.044261,5.9490036 9.38434998,3.6117407
+12.2698665,3.6117407" />
+        </group>
+    </group>
+</vector>

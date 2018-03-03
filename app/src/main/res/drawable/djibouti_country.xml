@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="53dp"
+    android:viewportWidth="44"
+    android:viewportHeight="53">
+
+    <group
+            android:name="PAISOS-2-Copy-4"
+            android:translateX="-529.000000"
+            android:translateY="-400.000000">
+        <path
+            android:name="DJIBOUTI"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 563.916148 400.002444 L 558.744339 405.817514 L 553.99708 407.16836 L 551.66848 409.76713 L 539.935419 413.202138 L 538.160021 420.007828 L 535.702768 425.076716 L 536.809175 432.474205 L 534.068888 437.504498 L 533.541415 442.702038 L 529 449.121772 L 531.766018 452.389532 L 542.392672 451.990711 L 549.082575 447.629409 L 556.711637 446.252833 L 561.76766 449.186098 L 562.449516 448.015365 L 569.049363 435.870617 L 568.097338 433.837916 L 560.725579 433.953703 L 556.325681 435.754831 L 554.395902 435.368875 L 551.295389 431.47072 L 557.393493 431.47072 L 560.288162 427.225204 L 564.250644 427.109417 L 569.486779 421.230022 L 572.381449 420.072154 L 571.390829 411.285223 L 572.252797 408.596397 L 570.451669 408.596397 L 563.916148 402.215259 L 564.01907 400.06677 Z" />
+    </group>
+</vector>

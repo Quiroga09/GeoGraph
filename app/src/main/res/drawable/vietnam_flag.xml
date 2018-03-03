@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-1465.000000"
+            android:translateY="-78.000000">
+        <group
+                android:name="Vietnam"
+                android:translateX="1465.000000"
+                android:translateY="78.000000">
+            <path
+                android:name="Fill-613"
+                android:fillColor="#E91127"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.214411765 17.3791137 L 29.8288235 17.3791137 L 29.8288235 0.00008875 L 0.214411765 0.00008875 Z" />
+            <path
+                android:name="Fill-614"
+                android:fillColor="#FBFF00"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 17.1137647 9.92198375 L 18.4064118 13.9263838 L 15.0217059 11.4511462 L 11.637 13.9263838 L 12.9296471 9.92198375 L 9.54494118 7.45029625 L 13.7290588 7.45029625 L 15.0217059 3.44589625 L 16.3178824 7.45029625 L 20.4984706 7.45029625 Z" />
+        </group>
+    </group>
+</vector>
