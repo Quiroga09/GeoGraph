@@ -2,6 +2,7 @@ package com.twentyfourkapps.geograph;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -27,6 +28,9 @@ public class start extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(activity_start);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         RelativeLayout background = findViewById(R.id.game_background);
 
         //Use custom font for a TEXTVIEW

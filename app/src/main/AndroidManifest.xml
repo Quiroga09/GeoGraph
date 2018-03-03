@@ -35,17 +35,17 @@
         <meta-data android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
 
-        <activity android:name="com.twentyfourkapps.geograph.start"   android:screenOrientation="portrait" />
-        <activity android:name="com.twentyfourkapps.geograph.game" android:screenOrientation="portrait" />
-        <activity android:name="com.twentyfourkapps.geograph.finish" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent" />
-        <activity android:name="com.twentyfourkapps.geograph.game_capitals" android:screenOrientation="portrait" />
-        <activity android:name="com.twentyfourkapps.geograph.game_flags" android:screenOrientation="portrait"/>
-        <activity android:name="com.twentyfourkapps.geograph.power_ups" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:name="com.twentyfourkapps.geograph.scores" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:name="com.twentyfourkapps.geograph.achievements" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:name="com.twentyfourkapps.geograph.MainActivity" android:screenOrientation="portrait"/>
-        <activity android:name="com.twentyfourkapps.geograph.settings" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
-        <activity android:name="com.twentyfourkapps.geograph.Init" android:screenOrientation="portrait">
+        <activity android:name="com.twentyfourkapps.geograph.start" />
+        <activity android:name="com.twentyfourkapps.geograph.game" />
+        <activity android:name="com.twentyfourkapps.geograph.finish" android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.twentyfourkapps.geograph.game_capitals" />
+        <activity android:name="com.twentyfourkapps.geograph.game_flags" />
+        <activity android:name="com.twentyfourkapps.geograph.power_ups" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.scores" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.achievements" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.MainActivity" />
+        <activity android:name="com.twentyfourkapps.geograph.settings" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.Init">
 
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>

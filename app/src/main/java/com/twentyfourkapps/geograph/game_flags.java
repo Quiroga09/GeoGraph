@@ -3,6 +3,7 @@ package com.twentyfourkapps.geograph;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
@@ -138,17 +139,16 @@ public class game_flags extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(activity_game_flags);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         //Get game mode
         game_mode = getIntent().getIntExtra("game_mode",0);
         ad_count = getIntent().getIntExtra("ad_count",0);
         game_difficulty = getIntent().getIntExtra("game_difficulty",0);
         practice_mode = getIntent().getIntExtra("practice_mode",0);
-
-
-        super.onCreate(savedInstanceState);
-        setContentView(activity_game_flags);
-
-
 
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));

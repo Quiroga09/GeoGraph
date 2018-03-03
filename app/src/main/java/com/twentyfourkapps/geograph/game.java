@@ -3,6 +3,7 @@ package com.twentyfourkapps.geograph;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
@@ -127,6 +128,9 @@ public class game extends AppCompatActivity {
 
         InterstitialAd mInterstitialAd;
         super.onCreate(savedInstanceState);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         //Get values from previous activity
         ad_count = getIntent().getIntExtra("ad_count",0);
         game_mode = getIntent().getIntExtra("game_mode",0);
