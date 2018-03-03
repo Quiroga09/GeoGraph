@@ -540,6 +540,15 @@ public class game_flags extends AppCompatActivity {
         }
     }
 
+    public void home_pressed(View v){
+        countries_db.close();
+        Intent i2 = new Intent(game_flags.this, MainActivity.class);
+        i2.putExtra("game_mode", game_mode);
+        i2.putExtra("game_difficulty",game_difficulty);
+        i2.putExtra("ad_count",ad_count);
+        startActivity(i2);
+    }
+
 
     public void getDatabase() {
         setDb(countries_db.getWritableDatabase());

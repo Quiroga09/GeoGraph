@@ -600,6 +600,16 @@ public class game extends AppCompatActivity {
         }
     }
 
+    public void home_pressed(View v){
+        countries_db.close();
+        // db.delete("countries", null, null);
+        Intent i2 = new Intent(game.this, MainActivity.class);
+        i2.putExtra("game_mode", game_mode);
+        i2.putExtra("ad_count",ad_count);
+        i2.putExtra("game_difficulty",game_difficulty);
+        startActivity(i2);
+    }
+
 
     public void getDatabase() {
         setDb(countries_db.getWritableDatabase());
