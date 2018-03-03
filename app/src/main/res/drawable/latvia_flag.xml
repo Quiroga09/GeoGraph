@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-677.000000"
+            android:translateY="-607.000000">
+        <group
+                android:name="Latvia"
+                android:translateX="677.000000"
+                android:translateY="607.000000">
+            <path
+                android:name="Fill-464"
+                android:fillColor="#900F26"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 17.5244514 L 29.8632724 17.5244514 L 29.8632724 0.131342137 L 0 0.131342137 Z" />
+            <path
+                android:name="Fill-465"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 10.5668523 L 29.8632724 10.5668523 L 29.8632724 7.08982953 L 0 7.08982953 Z" />
+        </group>
+    </group>
+</vector>

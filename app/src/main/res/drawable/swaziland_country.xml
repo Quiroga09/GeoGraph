@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="49dp"
+    android:viewportWidth="44"
+    android:viewportHeight="49">
+
+    <group
+            android:name="PAISOS-2-Copy-4"
+            android:translateX="-364.000000"
+            android:translateY="-392.000000">
+        <path
+            android:name="SWAZILAND"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 380.382509 391.999864 L 375.193356 394.594441 L 373.916444 400.435634 L 366.567408 414.019803 L 364 421.151492 L 365.711605 424.805634 L 368.958222 427.82132 L 372.408601 434.083622 L 382.134867 439.544458 L 393.667827 440.087825 L 398.327197 438.430556 L 399.862208 433.241403 L 399.332425 428.717875 L 402.850725 426.204804 L 404.956272 425.756526 L 404.290647 423.420049 L 405.689817 418.421074 L 406.246768 414.440913 L 407.184076 412.253861 L 404.358568 408.531799 L 401.288546 405.162925 L 398.150603 403.396983 L 397.647988 402.514012 L 397.634404 402.581932 L 392.676182 400.435634 L 387.921723 396.31963 Z" />
+    </group>
+</vector>

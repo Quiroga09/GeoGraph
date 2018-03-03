@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="29dp"
+    android:viewportWidth="36"
+    android:viewportHeight="29">
+
+    <group
+            android:name="PAISOS-2-Copy-4"
+            android:translateX="-427.000000"
+            android:translateY="-138.000000">
+        <path
+            android:name="MACEDONIA"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 449.819948 137.997344 L 445.810426 138.930093 L 443.141729 138.50906 L 437.584103 139.849886 L 435.219845 141.592312 L 432.240232 142.421422 L 428.904361 144.280441 L 429.059819 146.560493 L 427.926271 147.739383 L 427.686606 147.266531 L 427 152.176415 L 428.068774 157.494376 L 430.335871 161.471512 L 431.832155 164.820338 L 434.863587 166.990273 L 434.902452 166.692312 L 440.557239 163.194505 L 444.573239 161.756518 L 444.780516 160.525809 L 447.766606 158.874067 L 454.85938 159.184983 L 458.14991 157.131641 L 460.714968 157.028002 L 462.476826 155.460467 L 461.952155 152.597447 L 461.440439 149.209757 L 457.644671 142.518583 L 451.886245 137.997344 Z" />
+    </group>
+</vector>

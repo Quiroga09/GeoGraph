@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="60dp"
+    android:viewportWidth="64"
+    android:viewportHeight="60">
+
+    <group
+            android:name="PAISOS-2"
+            android:translateX="-620.000000"
+            android:translateY="-393.000000">
+        <path
+            android:name="TRINIDAD-AND-TOBAGO"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 660.672731 403.301388 L 649.562404 398.611602 L 635.772199 402.631419 L 632.00362 409.973168 L 643.783917 420.162287 L 644.67721 431.523853 L 632.67359 441.908381 L 620 446.793575 L 633.985613 452.404569 L 664.273817 447.49146 L 676.919492 436.771948 L 676.472845 423.288812 L 670.024389 412.401807 L 684.010002 398.220786 L 683.144625 393.531 Z" />
+    </group>
+</vector>

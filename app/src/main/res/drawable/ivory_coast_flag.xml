@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-2593.000000"
+            android:translateY="-206.000000">
+        <group
+                android:name="Costa-Ivory"
+                android:translateX="2593.000000"
+                android:translateY="206.000000">
+            <path
+                android:name="Fill-8"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.178522167 17.4707291 L 29.9388177 17.4707291 L 29.9388177 0.110039409 L 0.178522167 0.110039409 Z" />
+            <path
+                android:name="Fill-9"
+                android:fillColor="#FF7D0C"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.178522167 17.4707291 L 10.0989163 17.4707291 L 10.0989163 0.110039409 L 0.178522167 0.110039409 Z" />
+            <path
+                android:name="Fill-10"
+                android:fillColor="#00A05D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 20.0184236 17.4707291 L 29.9388177 17.4707291 L 29.9388177 0.110039409 L 20.0184236 0.110039409 Z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="61dp"
+    android:viewportWidth="97"
+    android:viewportHeight="61">
+
+    <group
+            android:name="PAISOS-2-Copy-5"
+            android:translateX="-103.000000"
+            android:translateY="-722.000000">
+        <path
+            android:name="SLOVENIA"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 189.76199 721.999851 L 181.73871 724.614514 L 167.335651 732.697558 L 163.884296 732.353916 L 159.148021 732.951553 L 151.647673 736.387968 L 144.520849 736.387968 L 136.67686 739.495681 L 132.403753 734.370942 L 117.671995 734.475528 L 112.45761 733.892832 L 104.897498 744.784771 L 107.273106 750.029038 L 103 756.677753 L 104.59868 767.913333 L 105.151494 768.062743 L 111.605977 771.021047 L 111.396804 775.518268 L 105.913482 777.012361 L 105.674427 782.988733 L 117.253649 782.346273 L 125.814803 776.160728 L 132.448576 774.263229 L 144.804727 779.970665 L 151.468382 779.492555 L 153.380821 768.092625 L 163.809592 762.848358 L 165.22898 754.317086 L 185.205006 743.843493 L 199.458654 743.843493 L 198.024325 731.502283 Z" />
+    </group>
+</vector>

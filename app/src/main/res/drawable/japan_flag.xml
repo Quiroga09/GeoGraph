@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-374.000000"
+            android:translateY="-352.000000">
+        <group
+                android:name="Japon"
+                android:translateX="374.000000"
+                android:translateY="352.000000">
+            <path
+                android:name="Fill-102"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0987642116 17.5215769 L 29.9611468 17.5215769 L 29.9611468 8.94957983e-05 L 0.0987642116 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-103"
+                android:fillColor="#CB0012"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M15.0313791,3.50644538 C17.9177855,3.50644538 20.2552051,5.85928992
+20.2552051,8.7607437 C20.2552051,11.6621975 17.9177855,14.0222017
+15.0313791,14.0222017 C12.1449728,14.0222017 9.80399407,11.6621975
+9.80399407,8.7607437 C9.80399407,5.85928992 12.1449728,3.50644538
+15.0313791,3.50644538" />
+        </group>
+    </group>
+</vector>

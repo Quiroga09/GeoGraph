@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.twentyfourkapps.geograph.finish"
+    android:background="@color/blue_diff_alpha"
+    android:id="@+id/rel_finish"
+    >
+
+    <FrameLayout
+        android:id="@+id/popup_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="522dp"
+        android:orientation="vertical"
+        android:background="@drawable/button_difficulty_focused"
+        android:layout_centerInParent="true"
+
+        >
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points"
+            android:textSize="39sp"
+            android:textColor="@color/blue_play"
+            android:layout_marginTop="45dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="102sp"
+            android:textColor="@color/blue_play"
+            android:textStyle="bold"
+            android:text="000"
+            />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="340dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:text="@string/play"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="33sp"
+            android:background="@drawable/button_blue_play"
+            android:onClick="restart"
+            />
+
+
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/back_main"
+            android:textColor="@color/blue_play"
+            android:background="@color/grey"
+            android:onClick="home_pressed_finish"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="46dp"
+    android:height="43dp"
+    android:viewportWidth="46"
+    android:viewportHeight="43">
+
+    <group
+            android:name="PAISOS-2-Copy-4"
+            android:translateX="-1022.000000"
+            android:translateY="-147.000000">
+        <group
+                android:name="CABO-VERDE"
+                android:translateX="1022.000000"
+                android:translateY="146.000000">
+            <group
+                    android:name="Group-3"
+                    android:translateY="0.194419">
+                <path
+                    android:name="Fill-1"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M6.41331429,1.27407143 L3.82388571,0.948357143 L1.48688571,1.97435714
+L-0.00325714286,2.43035714 L0.965742857,5.1745 C0.965742857,5.1745
+3.22945714,5.29664286 3.42488571,5.36178571 L7.30902857,2.88635714
+L6.41331429,1.27407143 Z" />
+            </group>
+            <path
+                android:name="Fill-4"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M20.6478429,10.2391614 L18.6284143,10.2473043 L17.8792714,11.6153043
+L19.7684143,13.1461614 L20.6478429,12.6250186 L21.7634143,12.5598757
+C21.7634143,12.5273043 22.6102714,12.3400186 22.6102714,12.3400186
+L22.4229857,11.2977329 L20.6478429,10.2391614 Z" />
+            <group
+                    android:name="Group-8"
+                    android:translateX="40.714286"
+                    android:translateY="3.337276">
+                <path
+                    android:name="Fill-6"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 3.73757143 6.06724286 L 3.73757143 2.95667143 L 1.92171429 4.75624286 L 2.70342857 7.61438571 Z" />
+            </group>
+            <group
+                    android:name="Group-11"
+                    android:translateX="32.571429"
+                    android:translateY="11.480133">
+                <path
+                    android:name="Fill-9"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 10.3341 6.83837143 L 7.9971 9.15908571 L 9.68267143 11.7485143 L 11.6206714 11.7485143 L 13.1759571 10.5922286 L 12.5245286 7.62008571 Z" />
+            </group>
+            <path
+                android:name="Fill-12"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M7.18444286,6.31919 L8.34887143,8.54219 C8.34887143,8.47704714 9.9693,7.36961857
+9.9693,7.36961857 L10.2950143,5.36647571 L8.60944286,4.83719 L7.18444286,6.31919
+Z" />
+            <group
+                    android:name="Group-16"
+                    android:translateX="32.571429"
+                    android:translateY="35.908704">
+                <path
+                    android:name="Fill-14"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 4.64387143 1.80527143 L 5.4093 3.61298571 L 7.48572857 2.83941429 L 5.8083 0.779271429 Z" />
+            </group>
+            <group
+                    android:name="Group-19"
+                    android:translateX="24.428571"
+                    android:translateY="35.908704">
+                <path
+                    android:name="Fill-17"
+                    android:fillColor="#FFFFFF"
+                    android:fillType="evenOdd"
+                    android:strokeWidth="1"
+                    android:pathData="M 2.96237143 0.6441 L 4.50137143 3.21724286 L 4.6398 7.36195714 L 8.64608571 8.14367143 L 9.54994286 5.41581429 L 5.92637143 1.40952857 Z" />
+            </group>
+            <path
+                android:name="Fill-20"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 25.7086286 10.2953471 L 24.4057714 11.7366329 L 25.5702 13.4140614 L 28.1677714 12.3717757 Z" />
+        </group>
+    </group>
+</vector>

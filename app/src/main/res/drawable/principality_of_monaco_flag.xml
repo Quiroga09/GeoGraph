@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="25dp"
+    android:viewportWidth="30"
+    android:viewportHeight="25">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-680.000000"
+            android:translateY="-335.000000">
+        <group
+                android:name="Monaco"
+                android:translateX="680.000000"
+                android:translateY="335.000000">
+            <path
+                android:name="Fill-1067"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 12.5 L 30 12.5 L 30 0 L 0 0 Z" />
+            <path
+                android:name="Fill-1068"
+                android:fillColor="#D0021B"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 25 L 30 25 L 30 12.5 L 0 12.5 Z" />
+        </group>
+    </group>
+</vector>

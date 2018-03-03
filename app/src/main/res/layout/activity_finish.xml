@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_finish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="com.twentyfourkapps.geograph.finish"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@color/blue_diff_alpha"
+        />
+
+    <FrameLayout
+        android:id="@+id/popup_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:id="@+id/lin_finish"
+        android:layout_width="280dp"
+        android:layout_height="348dp"
+        android:orientation="vertical"
+        android:background="@drawable/button_difficulty_focused"
+        android:layout_centerInParent="true"
+        tools:context="com.twentyfourkapps.geograph.finish"
+        >
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points"
+            android:textSize="26sp"
+            android:textColor="@color/blue_play"
+            android:layout_marginTop="45dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="68sp"
+            android:textColor="@color/blue_play"
+            android:textStyle="bold"
+            android:text="000"
+            />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="227dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/play"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:background="@drawable/button_blue_play"
+            android:onClick="restart"
+            />
+
+
+
+        <Button
+            android:layout_width="227dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/back_main"
+            android:textColor="@color/blue_play"
+            android:background="@color/grey"
+            android:onClick="home_pressed_finish"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

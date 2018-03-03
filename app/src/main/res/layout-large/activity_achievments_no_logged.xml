@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_diff_alpha"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="com.twentyfourkapps.geograph.achievements"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back_arrow"
+        android:onClick="home_pressed"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:scaleY="1.5"
+        android:scaleX="1.5"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        >
+
+
+        <TextView
+            android:id="@+id/scores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/achievements"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_gravity="center_vertical"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/achievements_logo"
+            android:drawableStart="@drawable/achievements_logo"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@drawable/button_difficulty_focused"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            tools:context="com.twentyfourkapps.geograph.achievements"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/login_achievments"
+                android:textColor="@color/blue_play"
+                android:textSize="23sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="6dp"
+                />
+
+            <View android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_sign_in"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/bitmap"
+                android:drawableStart="@drawable/bitmap"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="32dp"
+                android:onClick="login"
+                android:scaleY="1.5"
+                android:scaleX="1.5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/button_difficulty_focused"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/no_login_achievments"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginEnd="45dp"
+                android:textColor="@color/new_blue"
+                android:textSize="23sp"
+                android:textStyle="italic"
+                android:onClick="back"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

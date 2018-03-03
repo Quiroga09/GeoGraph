@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="31dp"
+    android:height="66dp"
+    android:viewportWidth="31"
+    android:viewportHeight="66">
+
+    <group
+            android:name="PAISOS-2-Copy-2"
+            android:translateX="-1338.000000"
+            android:translateY="-288.000000">
+        <path
+            android:name="QATAR"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 1349.448 287.999823 L 1348.282 291.533157 L 1345.34933 291.815823 L 1345.34933 295.06649 L 1342.69933 297.115823 L 1344.148 303.316823 L 1342.399 303.316823 L 1344.44833 315.082823 L 1342.399 313.581157 L 1339.18367 313.581157 L 1338 325.400157 L 1339.76667 330.982823 L 1342.399 334.215823 L 1342.399 342.18349 L 1340.42033 343.45549 L 1342.04567 347.16549 L 1354.642 353.878823 L 1361.108 353.878823 L 1360.96667 353.649157 L 1365.36567 352.78349 L 1368.28067 333.632823 L 1364.19967 325.947823 L 1361.532 325.947823 L 1360.06567 312.71549 L 1361.85 312.71549 L 1364.5 300.04849 L 1363.016 297.416157 L 1359.783 297.416157 L 1359.18233 293.31749 L 1352.416 287.999823 Z" />
+    </group>
+</vector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-1792.000000"
+            android:translateY="-207.000000">
+        <group
+                android:name="Ghana"
+                android:translateX="1792.000000"
+                android:translateY="207.000000">
+            <path
+                android:name="Fill-1"
+                android:fillColor="#006D3C"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0591133005 17.4709951 L 29.8194089 17.4709951 L 29.8194089 11.6870542 L 0.0591133005 11.6870542 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0591133005 11.6870542 L 29.8194089 11.6870542 L 29.8194089 5.8986798 L 0.0591133005 5.8986798 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0591133005 5.8986798 L 29.8194089 5.8986798 L 29.8194089 0.110305419 L 0.0591133005 0.110305419 Z" />
+            <path
+                android:name="Fill-4"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 12.4101281 8.22617734 L 14.343133 8.22617734 L 14.9372217 6.39070936 L 15.5339704 8.22617734 L 17.4634286 8.22617734 L 15.9046108 9.35849261 L 16.4986995 11.1913005 L 14.9372217 10.0580985 L 13.3784039 11.1913005 L 13.9724926 9.35849261 Z" />
+        </group>
+    </group>
+</vector>

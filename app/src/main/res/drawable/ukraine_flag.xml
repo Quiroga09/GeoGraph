@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-55.000000"
+            android:translateY="-461.000000">
+        <group
+                android:name="Ukraine"
+                android:translateX="55.000000"
+                android:translateY="461.000000">
+            <path
+                android:name="Fill-1642"
+                android:fillColor="#3373C4"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.248498168 17.3182038 L 29.7544322 17.3182038 L 29.7544322 8.84615384e-05 L 0.248498168 8.84615384e-05 Z" />
+            <path
+                android:name="Fill-1643"
+                android:fillColor="#FADE00"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.248498168 17.3182038 L 29.7544322 17.3182038 L 29.7544322 8.65958846 L 0.248498168 8.65958846 Z" />
+        </group>
+    </group>
+</vector>

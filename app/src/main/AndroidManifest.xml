@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.twentyfourkapps.geograph">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:xlargeScreens="true">
+    </supports-screens>
+
+    <!--canviar a true allowBackup i fullBackupContent per mantenir dades tot i reinstalar app-->
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/icon1"
+        android:logo="@mipmap/icon1"
+        android:roundIcon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.twentyfourkapps.geograph.MyApplication"
+        android:hardwareAccelerated="true"
+        >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/app_id" />
+
+        <activity android:name="com.twentyfourkapps.geograph.start"   android:screenOrientation="portrait" />
+        <activity android:name="com.twentyfourkapps.geograph.game" android:screenOrientation="portrait" />
+        <activity android:name="com.twentyfourkapps.geograph.finish" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.twentyfourkapps.geograph.game_capitals" android:screenOrientation="portrait" />
+        <activity android:name="com.twentyfourkapps.geograph.game_flags" android:screenOrientation="portrait"/>
+        <activity android:name="com.twentyfourkapps.geograph.power_ups" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.scores" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.achievements" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.twentyfourkapps.geograph.settings" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.twentyfourkapps.geograph.Init" android:screenOrientation="portrait">
+
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

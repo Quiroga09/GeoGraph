@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="55dp"
+    android:height="55dp"
+    android:viewportWidth="55"
+    android:viewportHeight="55">
+
+    <group
+            android:name="MATERIAL"
+            android:translateX="-671.000000"
+            android:translateY="-1029.000000">
+        <group
+                android:name="Group-6-Copy-3"
+                android:translateX="671.000000"
+                android:translateY="1029.000000">
+            <path
+                android:name="Oval-2"
+                android:fillColor="#FF5454"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 27.5 0 C 42.6878306203 0 55 12.3121693797 55 27.5 C 55 42.6878306203 42.6878306203 55 27.5 55 C 12.3121693797 55 0 42.6878306203 0 27.5 C 0 12.3121693797 12.3121693797 0 27.5 0 Z" />
+        </group>
+    </group>
+</vector>

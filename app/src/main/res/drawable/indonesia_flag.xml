@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-833.000000"
+            android:translateY="-353.000000">
+        <group
+                android:name="Indonesia"
+                android:translateX="833.000000"
+                android:translateY="353.000000">
+            <path
+                android:name="Fill-11"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.167881773 8.73424009 L 29.9264039 8.73424009 L 29.9264039 0.000981465517 L 0.167881773 0.000981465517 Z" />
+            <path
+                android:name="Fill-12"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.167881773 17.4683909 L 29.9264039 17.4683909 L 29.9264039 8.73424009 L 0.167881773 8.73424009 Z" />
+        </group>
+    </group>
+</vector>

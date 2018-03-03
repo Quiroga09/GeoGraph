@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-219.000000"
+            android:translateY="-461.000000">
+        <group
+                android:name="Switzerland"
+                android:translateX="219.000000"
+                android:translateY="461.000000">
+            <path
+                android:name="Fill-1640"
+                android:fillColor="#E70019"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.103743842 17.4674987 L 29.8631527 17.4674987 L 29.8631527 8.92241379e-05 L 0.103743842 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-1641"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 9.5606601 7.09608491 L 13.3566207 7.09608491 L 13.3566207 3.27461509 L 16.6125813 3.27461509 L 16.6125813 7.09608491 L 20.4085419 7.09608491 L 20.4085419 10.371503 L 16.6125813 10.371503 L 16.6125813 14.1911884 L 13.3566207 14.1911884 L 13.3566207 10.371503 L 9.5606601 10.371503 Z" />
+        </group>
+    </group>
+</vector>

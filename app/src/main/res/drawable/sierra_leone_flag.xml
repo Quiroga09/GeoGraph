@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-1145.000000"
+            android:translateY="-66.000000">
+        <group
+                android:name="Sierra-Leona"
+                android:translateX="1145.000000"
+                android:translateY="66.000000">
+            <path
+                android:name="Fill-43"
+                android:fillColor="#00B82E"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.176157635 5.82062586 L 29.9346798 5.82062586 L 29.9346798 0.000535344828 L 0.176157635 0.000535344828 Z" />
+            <path
+                android:name="Fill-44"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.176157635 11.6478543 L 29.9346798 11.6478543 L 29.9346798 5.82062586 L 0.176157635 5.82062586 Z" />
+            <path
+                android:name="Fill-45"
+                android:fillColor="#006FC6"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.176157635 17.4679448 L 29.9346798 17.4679448 L 29.9346798 11.6478543 L 0.176157635 11.6478543 Z" />
+        </group>
+    </group>
+</vector>

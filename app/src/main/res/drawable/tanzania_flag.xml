@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-216.000000"
+            android:translateY="-64.000000">
+        <group
+                android:name="Tanzania"
+                android:translateX="216.000000"
+                android:translateY="64.000000">
+            <path
+                android:name="Fill-163"
+                android:fillColor="#00A142"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 0.000175824176 L 0 13.0665495 L 22.4940659 0.000175824176 Z" />
+            <path
+                android:name="Fill-164"
+                android:fillColor="#0095D5"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 7.0109011 17.2113407 L 29.5058462 17.2113407 L 29.5058462 4.14145055 Z" />
+            <path
+                android:name="Fill-167"
+                android:fillColor="#F8C200"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 22.4940659 0.000175824176 L 0 13.0665495 L 0 14.3957802 L 24.7410989 0.000175824176 Z" />
+            <path
+                android:name="Fill-170"
+                android:fillColor="#F8C200"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 4.76465934 17.2113407 L 7.01081319 17.2113407 L 29.5057582 4.14145055 L 29.5057582 2.8087033 Z" />
+            <path
+                android:name="Fill-171"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 24.7410989 0.000175824176 L 0 14.3957802 L 0 17.1905055 L 0.0114285714 17.2010549 L 0.0167032967 17.2116044 L 4.76483516 17.2116044 L 29.5059341 2.80896703 L 29.5059341 0.0177582418 L 29.4945055 0.00632967033 L 29.4892308 0.000175824176 Z" />
+        </group>
+    </group>
+</vector>

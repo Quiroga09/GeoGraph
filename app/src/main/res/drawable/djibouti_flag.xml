@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-54.000000"
+            android:translateY="-493.000000">
+        <group
+                android:name="Djibouti"
+                android:translateX="54.000000"
+                android:translateY="493.000000">
+            <path
+                android:name="Fill-26"
+                android:fillColor="#5CB0E7"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0201680672 9.00980168 L 29.8825507 9.00980168 L 29.8825507 0.251742857 L 0.0201680672 0.251742857 Z" />
+            <path
+                android:name="Fill-27"
+                android:fillColor="#00AF1A"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0201680672 17.7696504 L 29.8825507 17.7696504 L 29.8825507 9.00980168 L 0.0201680672 9.00980168 Z" />
+            <path
+                android:name="Fill-28"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.020257044 0.252011345 L 0.020257044 9.01007017 L 0.020257044 17.7699189 L 7.56192783 13.3899945 L 15.1080475 9.01007017 L 7.56192783 4.63193571 Z" />
+            <path
+                android:name="Fill-29"
+                android:fillColor="#FF001B"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 5.04922392 7.25443109 L 5.4380524 8.46709916 L 6.7068611 8.46709916 L 5.6800692 9.21528403 L 6.07067721 10.4288471 L 5.04922392 9.68066218 L 4.0259911 10.4288471 L 4.41659911 9.21528403 L 3.39158675 8.46709916 L 4.65861592 8.46709916 Z" />
+        </group>
+    </group>
+</vector>

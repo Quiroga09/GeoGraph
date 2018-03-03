@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="90dp"
+    android:height="37dp"
+    android:viewportWidth="90"
+    android:viewportHeight="37">
+
+    <group
+            android:name="PAISOS-2"
+            android:translateX="-1063.000000"
+            android:translateY="-114.000000">
+        <path
+            android:name="JAMAICA"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 1136.05303 128.711464 L 1128.57017 116.304753 L 1098.07705 114.617876 L 1083.12944 117.773969 L 1074.21523 116.885184 L 1067.58393 118.336262 L 1063 124.938663 L 1070.46474 130.688557 L 1075.64658 129.001679 L 1080.55664 131.305264 L 1085.12246 141.680467 L 1090.59419 145.979283 L 1099.81641 145.707206 L 1106.15782 150.586453 L 1115.6337 150.894807 L 1115.92359 142.532975 L 1122.82667 142.532975 L 1125.97925 146.269499 L 1130.01963 145.108637 L 1133.19034 138.469958 L 1138.64395 141.372113 L 1151.87032 141.372113 L 1152.74 137.635589 L 1146.12681 130.688557 Z" />
+    </group>
+</vector>

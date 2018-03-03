@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="54dp"
+    android:height="35dp"
+    android:viewportWidth="54"
+    android:viewportHeight="35">
+
+    <group
+            android:name="PAISOS-2-Copy-3"
+            android:translateX="-295.000000"
+            android:translateY="-109.000000">
+        <path
+            android:name="EQUATORIAL-GUINEA"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:strokeWidth="1"
+            android:pathData="M 312.597962 109.146 L 309.129133 109.849 L 308.077607 110.897333 L 310.108141 115.645667 L 301.647582 125.302667 L 295 138.265 L 301.647582 141.743 L 301.562976 143.309333 L 304.765902 144 L 308.125953 141.632 L 311.062975 140.990667 L 312.597962 142.15 L 348.990452 142.557 L 348.990452 110.194333 L 317.323789 110.33 L 315.800888 109.146 Z" />
+    </group>
+</vector>

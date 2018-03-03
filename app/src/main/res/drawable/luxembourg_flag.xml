@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-217.000000"
+            android:translateY="-608.000000">
+        <group
+                android:name="Luxembourg"
+                android:translateX="217.000000"
+                android:translateY="608.000000">
+            <path
+                android:name="Fill-256"
+                android:fillColor="#00A1DC"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0699950568 17.5252509 L 29.9332674 17.5252509 L 29.9332674 11.7278439 L 0.0699950568 11.7278439 Z" />
+            <path
+                android:name="Fill-257"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0699950568 11.7278439 L 29.9332674 11.7278439 L 29.9332674 5.93043697 L 0.0699950568 5.93043697 Z" />
+            <path
+                android:name="Fill-258"
+                android:fillColor="#FF1635"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0699950568 5.93043697 L 29.9332674 5.93043697 L 29.9332674 0.131253301 L 0.0699950568 0.131253301 Z" />
+        </group>
+    </group>
+</vector>

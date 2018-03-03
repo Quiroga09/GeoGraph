@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-2"
+            android:translateX="-2274.000000"
+            android:translateY="-219.000000">
+        <group
+                android:name="Kuwait"
+                android:translateX="2274.000000"
+                android:translateY="219.000000">
+            <path
+                android:name="Fill-258"
+                android:fillColor="#009A75"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.179408867 5.79252026 L 29.9388177 5.79252026 L 29.9388177 8.92241379e-05 L 0.179408867 8.92241379e-05 Z" />
+            <path
+                android:name="Fill-259"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.179408867 11.617072 L 29.9388177 11.617072 L 29.9388177 5.79252026 L 0.179408867 5.79252026 Z" />
+            <path
+                android:name="Fill-260"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.179408867 17.4407315 L 29.9388177 17.4407315 L 29.9388177 11.617072 L 0.179408867 11.617072 Z" />
+            <path
+                android:name="Fill-261"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.179408867 0.000356896552 L 0.179408867 17.4401069 L 8.85931034 11.6164474 L 8.85931034 5.79278793 L 0.223743842 0.000356896552 Z" />
+        </group>
+    </group>
+</vector>

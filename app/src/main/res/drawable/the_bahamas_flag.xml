@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-1955.000000"
+            android:translateY="-311.000000">
+        <group
+                android:name="Bahamas"
+                android:translateX="1955.000000"
+                android:translateY="311.000000">
+            <path
+                android:name="Fill-2877"
+                android:fillColor="#00ABC8"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0780029659 17.518892 L 29.9412753 17.518892 L 29.9412753 8.94957983e-05 L 0.0780029659 8.94957983e-05 Z" />
+            <path
+                android:name="Fill-2878"
+                android:fillColor="#FAE13A"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.0780029659 11.6792912 L 29.9412753 11.6792912 L 29.9412753 5.83969034 L 0.0780029659 5.83969034 Z" />
+            <path
+                android:name="Fill-2879"
+                android:fillColor="#000000"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.078358873 0.000357983193 L 0.078358873 17.5191605 L 14.5958082 8.75931176 Z" />
+        </group>
+    </group>
+</vector>

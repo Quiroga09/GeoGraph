@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="-banderas-small"
+            android:translateX="-832.000000"
+            android:translateY="-47.000000">
+        <group
+                android:name="Tonga"
+                android:translateX="832.000000"
+                android:translateY="47.000000">
+            <path
+                android:name="Fill-1"
+                android:fillColor="#CE0012"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 17.5207714 L 29.8632724 17.5207714 L 29.8632724 0.000178991597 L 0 0.000178991597 Z" />
+            <path
+                android:name="Fill-2"
+                android:fillColor="#FFFFFF"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0 8.76092269 L 14.5174493 8.76092269 L 14.5174493 0.00107394958 L 0 0.00107394958 Z" />
+            <path
+                android:name="Fill-3"
+                android:fillColor="#CE0012"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 6.16964904 7.66549412 L 8.34691053 7.66549412 L 8.34691053 1.09381765 L 6.16964904 1.09381765 Z" />
+            <path
+                android:name="Fill-4"
+                android:fillColor="#CE0012"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 3.99149778 5.47463697 L 10.5259516 5.47463697 L 10.5259516 3.28467479 L 3.99149778 3.28467479 Z" />
+        </group>
+    </group>
+</vector>

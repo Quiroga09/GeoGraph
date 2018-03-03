@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="18dp"
+    android:viewportWidth="30"
+    android:viewportHeight="18">
+
+    <group
+            android:name="Banderas-3"
+            android:translateX="-1457.000000"
+            android:translateY="-206.000000">
+        <group
+                android:name="guinea"
+                android:translateX="1457.000000"
+                android:translateY="206.000000">
+            <path
+                android:name="Fill-18"
+                android:fillColor="#DC002D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 0.105585764 17.5272941 L 10.0594167 17.5272941 L 10.0594167 0.131519808 L 0.105585764 0.131519808 Z" />
+            <path
+                android:name="Fill-19"
+                android:fillColor="#FFD100"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 10.0594167 17.5272941 L 20.0141374 17.5272941 L 20.0141374 0.131519808 L 10.0594167 0.131519808 Z" />
+            <path
+                android:name="Fill-20"
+                android:fillColor="#00955D"
+                android:fillType="evenOdd"
+                android:strokeWidth="1"
+                android:pathData="M 20.0141374 17.5272941 L 29.9679684 17.5272941 L 29.9679684 0.131519808 L 20.0141374 0.131519808 Z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">170079814520</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.twentyfourkapps.geograph</string>
+    <!-- achievement Rookie -->
+    <string name="achievement_rookie" translatable="false">CgkI-IawzPkEEAIQKQ</string>
+    <!-- achievement Addict -->
+    <string name="achievement_addict" translatable="false">CgkI-IawzPkEEAIQKg</string>
+    <!-- achievement Gamer! -->
+    <string name="achievement_gamer" translatable="false">CgkI-IawzPkEEAIQKw</string>
+    <!-- achievement Better with help -->
+    <string name="achievement_better_with_help" translatable="false">CgkI-IawzPkEEAIQLA</string>
+    <!-- achievement On your own -->
+    <string name="achievement_on_your_own" translatable="false">CgkI-IawzPkEEAIQLQ</string>
+    <!-- achievement Perfect game -->
+    <string name="achievement_perfect_game" translatable="false">CgkI-IawzPkEEAIQLg</string>
+    <!-- achievement First streak -->
+    <string name="achievement_first_streak" translatable="false">CgkI-IawzPkEEAIQLw</string>
+    <!-- achievement You are in -->
+    <string name="achievement_you_are_in" translatable="false">CgkI-IawzPkEEAIQMA</string>
+    <!-- achievement The Masterpiece -->
+    <string name="achievement_the_masterpiece" translatable="false">CgkI-IawzPkEEAIQMQ</string>
+    <!-- achievement Medium unlocked (Flag/Country) -->
+    <string name="achievement_medium_unlocked_flagcountry" translatable="false">CgkI-IawzPkEEAIQJg</string>
+    <!-- achievement Medium unlocked (Country/Flag) -->
+    <string name="achievement_medium_unlocked_countryflag" translatable="false">CgkI-IawzPkEEAIQPQ</string>
+    <!-- achievement Medium unlocked (Capitals) -->
+    <string name="achievement_medium_unlocked_capitals" translatable="false">CgkI-IawzPkEEAIQPg</string>
+    <!-- achievement Medium unlocked (Country/Shape) -->
+    <string name="achievement_medium_unlocked_countryshape" translatable="false">CgkI-IawzPkEEAIQPw</string>
+    <!-- achievement Hard unlocked (Flag/Country) -->
+    <string name="achievement_hard_unlocked_flagcountry" translatable="false">CgkI-IawzPkEEAIQQA</string>
+    <!-- achievement Hard unlocked (Country/Flag) -->
+    <string name="achievement_hard_unlocked_countryflag" translatable="false">CgkI-IawzPkEEAIQQQ</string>
+    <!-- achievement Hard unlocked (Capitals) -->
+    <string name="achievement_hard_unlocked_capitals" translatable="false">CgkI-IawzPkEEAIQQg</string>
+    <!-- achievement Hard unlocked (Country/Shape) -->
+    <string name="achievement_hard_unlocked_countryshape" translatable="false">CgkI-IawzPkEEAIQQw</string>
+    <!-- achievement Master of Flag/Country -->
+    <string name="achievement_master_of_flagcountry" translatable="false">CgkI-IawzPkEEAIQRA</string>
+    <!-- achievement Master of Country/Flag -->
+    <string name="achievement_master_of_countryflag" translatable="false">CgkI-IawzPkEEAIQRQ</string>
+    <!-- achievement Master of Capitals -->
+    <string name="achievement_master_of_capitals" translatable="false">CgkI-IawzPkEEAIQRg</string>
+    <!-- achievement Master of Country/Shape -->
+    <string name="achievement_master_of_countryshape" translatable="false">CgkI-IawzPkEEAIQRw</string>
+    <!-- leaderboard Flag / Country (Easy) -->
+    <string name="leaderboard_flag__country_easy" translatable="false">CgkI-IawzPkEEAIQAw</string>
+    <!-- leaderboard Flag / Country (Medium) -->
+    <string name="leaderboard_flag__country_medium" translatable="false">CgkI-IawzPkEEAIQEA</string>
+    <!-- leaderboard Flag / Country (Hard) -->
+    <string name="leaderboard_flag__country_hard" translatable="false">CgkI-IawzPkEEAIQEQ</string>
+    <!-- leaderboard Country / Flag (Easy) -->
+    <string name="leaderboard_country__flag_easy" translatable="false">CgkI-IawzPkEEAIQAg</string>
+    <!-- leaderboard Country / Flag (Medium) -->
+    <string name="leaderboard_country__flag_medium" translatable="false">CgkI-IawzPkEEAIQEg</string>
+    <!-- leaderboard Country / Flag (Hard) -->
+    <string name="leaderboard_country__flag_hard" translatable="false">CgkI-IawzPkEEAIQEw</string>
+    <!-- leaderboard Capitals (Easy) -->
+    <string name="leaderboard_capitals_easy" translatable="false">CgkI-IawzPkEEAIQBA</string>
+    <!-- leaderboard Capitals (Medium) -->
+    <string name="leaderboard_capitals_medium" translatable="false">CgkI-IawzPkEEAIQFA</string>
+    <!-- leaderboard Capitals (Hard) -->
+    <string name="leaderboard_capitals_hard" translatable="false">CgkI-IawzPkEEAIQFQ</string>
+    <!-- leaderboard Country / Shape (Easy) -->
+    <string name="leaderboard_country__shape_easy" translatable="false">CgkI-IawzPkEEAIQAQ</string>
+    <!-- leaderboard Country / Shape (Medium) -->
+    <string name="leaderboard_country__shape_medium" translatable="false">CgkI-IawzPkEEAIQDg</string>
+    <!-- leaderboard Country / Shape (Hard) -->
+    <string name="leaderboard_country__shape_hard" translatable="false">CgkI-IawzPkEEAIQDw</string>
+</resources>
