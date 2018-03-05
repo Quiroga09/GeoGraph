@@ -141,6 +141,7 @@ public class start extends AppCompatActivity {
         i2.putExtra("game_difficulty",game_difficulty);
         i2.putExtra("ad_count",ad_count);
         startActivity(i2);
+        finish();
     }
 
     @Override

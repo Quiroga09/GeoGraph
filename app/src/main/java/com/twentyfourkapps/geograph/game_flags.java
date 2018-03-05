@@ -496,12 +496,21 @@ public class game_flags extends AppCompatActivity {
 
 
     public String getCountry_name(int rand) {
-
-        Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
-        show_country.moveToFirst();
-        String ret = show_country.getString(0);
-        show_country.close();
-        return ret;
+        //Select the answer of the questions in different languages
+        Cursor show_country;
+        if(LANG_CURRENT.equals("en")){
+            show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand + " AND difficulty<="+ game_difficulty , null);
+            show_country.moveToFirst();
+            String result = show_country.getString(0);
+            show_country.close();
+            return result;
+        }else{
+            show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER_ES + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand + " AND difficulty<="+ game_difficulty, null);
+            show_country.moveToFirst();
+            String result = show_country.getString(0);
+            show_country.close();
+            return result;
+        }
     }
 
     public String getButton_name(int rand) {
@@ -532,6 +541,7 @@ public class game_flags extends AppCompatActivity {
             i2.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             i2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(i2);
+            finish();
         } else {
             Toast.makeText(this, R.string.backpressed_game,
                     Toast.LENGTH_SHORT).show();
@@ -860,6 +870,7 @@ public class game_flags extends AppCompatActivity {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(newBase);
         LANG_CURRENT = preferences.getString("Language", "en");
         VIB_CURRENT = preferences.getInt("Vibration",1);
+
         super.attachBaseContext(LocaleManager.setNewLocale(newBase,LANG_CURRENT));
     }
 }
