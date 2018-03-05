@@ -25,7 +25,7 @@
     <string name="Power_up">Potenciadores</string>
     <string name="score">Clasificación </string>
     <string name="best_score">MEJOR PUNTUACIÓN</string>
-    <string name="crash_toast_text">Ooooops! Error, lo siento!</string>
+    <string name="crash_toast_text">Ooooops! Ha habido un error!</string>
     <string name="backpressed_main">Pulsa atrás de nuevo para salir.</string>
     <string name="backpressed_game">Pulsa atrás de nuevo para volver al menú.</string>
     <string name="time_out">Tiempo!</string>

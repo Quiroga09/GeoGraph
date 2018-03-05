@@ -73,11 +73,10 @@ public class game_flags extends AppCompatActivity {
 
     public String country_name;
     public String country_button;
-    ArrayList<Integer> country_random = new ArrayList<Integer>();
-    ArrayList<Integer> country_buttons = new ArrayList<Integer>();
+    ArrayList<Integer> country_random = new ArrayList<>();
+    ArrayList<Integer> country_buttons = new ArrayList<>();
 
-    ArrayList<Integer> country_buttons_all = new ArrayList<Integer>();
-    ArrayList<Integer> country_random_0 = new ArrayList<Integer>();
+    ArrayList<Integer> country_random_0 = new ArrayList<>();
 
     final int number_of_countries = 201;
     private ImageButton button1;
@@ -136,6 +135,7 @@ public class game_flags extends AppCompatActivity {
     private Boolean a25=false;
 
     private int inarow=0;
+    private int cheat=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -247,17 +247,21 @@ public class game_flags extends AppCompatActivity {
             } while (cursor_0.moveToNext());
         }
         country_random.addAll(country_random_0);
-        country_buttons_all.addAll(country_random_0);
+        country_buttons.addAll(country_random_0);
+
+
+        country_random_0.clear();
+        cursor_0.close();
     }
 
     public void begin() {
 
-        if (country_random.size() == 1){
+        if (country_random.size() == 0){
             country_random.clear();
+            country_buttons.clear();
             get_idCountry_by_difficulty(game_difficulty);
-
         }
-        int a = 0;
+
         number.clear();
         if (practice_mode==0) {
             question_timer(6000,1);
@@ -268,30 +272,24 @@ public class game_flags extends AppCompatActivity {
             mTimer.start();
             timer_on =1;
         }
-
-        country_buttons.clear();
-        country_buttons.addAll(country_buttons_all);
-
         Collections.shuffle(country_random);
         Collections.shuffle(country_buttons);
 
-        if (country_random.size() >= 1) {
-            country_name = getCountry_name(country_random.get(0));
-            country_button = getButton_name(country_random.get(0));
-            while (a == 0) {
-                if (country_random.contains(country_random.get(0))) {
-                    country_buttons.remove(country_random.get(0));
-                    country_random.remove(country_random.get(0));
 
-                    a = 1;
-                } else {
-                    Collections.shuffle(country_random);
-                    country_name = getCountry_name(country_random.get(0));
-                    country_button = getButton_name(country_random.get(0));
+        country_name = getCountry_name(country_random.get(0));
+        country_button = getButton_name(country_random.get(0));
 
-                }
-            }
+        country_buttons.remove(country_random.get(0));
+
+        String answer1 = getButton_name(country_buttons.get(1));
+        String answer2 = getButton_name(country_buttons.get(2));
+        String answer3 = getButton_name(country_buttons.get(3));
+
+        if(country_random.size()>0) {
+            country_buttons.add(country_random.get(0));
         }
+        country_random.remove(country_random.get(0));
+
         TextView pais =  findViewById(R.id.country);
         //set Text
         pais.setText(country_name);
@@ -303,34 +301,33 @@ public class game_flags extends AppCompatActivity {
         Collections.shuffle(number);
 
         String button_id_1 = "option" + number.get(0);
-        String button_id_2 = "option" + number.get(1);
-        String button_id_3 = "option" + number.get(2);
-        String button_id_4 = "option" + number.get(3);
         button_name_1 = getResources().getIdentifier(button_id_1, "id", getPackageName());
-        button_name_2 = getResources().getIdentifier(button_id_2, "id", getPackageName());
-        button_name_3 = getResources().getIdentifier(button_id_3, "id", getPackageName());
-        button_name_4 = getResources().getIdentifier(button_id_4, "id", getPackageName());
         button1 =  findViewById(button_name_1);
-        button2 =  findViewById(button_name_2);
-        button3 =  findViewById(button_name_3);
-        button4 =  findViewById(button_name_4);
-
-
         int a1 = getResources().getIdentifier(country_button +"_flag","drawable", getPackageName());
-        int a2 = getResources().getIdentifier(getButton_name(country_buttons.get(1))+"_flag","drawable", getPackageName());
-        int a3 = getResources().getIdentifier(getButton_name(country_buttons.get(2))+"_flag","drawable", getPackageName());
-        int a4 = getResources().getIdentifier(getButton_name(country_buttons.get(3))+"_flag","drawable", getPackageName());
-        try {
-            button1.setImageResource(a1);
-            button2.setImageResource(a2);
-            button3.setImageResource(a3);
-            button4.setImageResource(a4);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        button2.setTag(getButton_name(country_buttons.get(1)));
-        button3.setTag(getButton_name(country_buttons.get(2)));
-        button4.setTag(getButton_name(country_buttons.get(3)));
+        button1.setImageResource(a1);
+
+        String button_id_2 = "option" + number.get(1);
+        button_name_2 = getResources().getIdentifier(button_id_2, "id", getPackageName());
+        button2 =  findViewById(button_name_2);
+        int a2 = getResources().getIdentifier(answer1 +"_flag","drawable", getPackageName());
+        button2.setImageResource(a2);
+
+
+        String button_id_3 = "option" + number.get(2);
+        button_name_3 = getResources().getIdentifier(button_id_3, "id", getPackageName());
+        button3 =  findViewById(button_name_3);
+        int a3 = getResources().getIdentifier(answer2 +"_flag","drawable", getPackageName());
+        button3.setImageResource(a3);
+
+        String button_id_4 = "option" + number.get(3);
+        button_name_4 = getResources().getIdentifier(button_id_4, "id", getPackageName());
+        button4 =  findViewById(button_name_4);
+        int a4 = getResources().getIdentifier(answer3 +"_flag","drawable", getPackageName());
+        button4.setImageResource(a4);
+
+        button2.setTag(answer1);
+        button3.setTag(answer2);
+        button4.setTag(answer3);
         button1.setTag(country_button);
 
 
@@ -389,14 +386,23 @@ public class game_flags extends AppCompatActivity {
         }, 200);
     }
 
-    public Boolean check(View v, String button_OK) {
+    public void check(View v, String button_OK) {
         TextView score_text =  findViewById(R.id.score);
         ImageView check =  findViewById(R.id.check_mark);
         ImageView wrong =  findViewById(R.id.wrong_mark);
 
 
-        if (button_OK == country_button) {
+        if (button_OK.equals(country_button)) {
             long scoreQuestion;
+            if(answerTime>5800){
+                cheat++;
+            }else{
+                cheat =0;
+            }
+
+            if(cheat >=5 && errors>=20){
+                score=0;
+            }
             scoreQuestion = Math.max(0, (levelMaxTime - (levelMaxTime - answerTime))) / 100;
             scoreQuestion = Math.round(scoreQuestion*(1+total_streak/10));
             score = score + scoreQuestion;
@@ -435,9 +441,6 @@ public class game_flags extends AppCompatActivity {
         if(practice_mode ==0) {
             winning_streak();
         }
-
-        return true;
-
     }
 
     public ArrayList<Integer> check_achievements(){
@@ -496,15 +499,18 @@ public class game_flags extends AppCompatActivity {
 
         Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
         show_country.moveToFirst();
-        return show_country.getString(0);
-
+        String ret = show_country.getString(0);
+        show_country.close();
+        return ret;
     }
 
     public String getButton_name(int rand) {
 
         Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.FILE_NAME + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
         show_country.moveToFirst();
-        return show_country.getString(0);
+        String ret = show_country.getString(0);
+        show_country.close();
+        return ret;
 
     }
 
@@ -644,18 +650,18 @@ public class game_flags extends AppCompatActivity {
 
     private void RunAnimation(ImageButton p_up)
     {
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.textview_animation);
-        a.reset();
+        Animation an = AnimationUtils.loadAnimation(this, R.anim.textview_animation);
+        an.reset();
         p_up.clearAnimation();
-        p_up.startAnimation(a);
+        p_up.startAnimation(an);
     }
     private void plusAnimation()
     {
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.plus_animation);
+        Animation an = AnimationUtils.loadAnimation(this, R.anim.plus_animation);
         TextView plus =  findViewById(plus5);
-        a.reset();
+        an.reset();
         plus.clearAnimation();
-        plus.startAnimation(a);
+        plus.startAnimation(an);
     }
 
     public void skip_pressed(final View v){

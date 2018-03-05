@@ -123,6 +123,7 @@ public class game_capitals extends AppCompatActivity {
     private Boolean a25=false;
 
     private int inarow = 0;
+    private int cheat = 0;
 
     public CountriesDbHelper countries_db = new CountriesDbHelper(this);
 
@@ -196,9 +197,6 @@ public class game_capitals extends AppCompatActivity {
 
         }
         begin();
-
-
-
     }
 
     @Override
@@ -240,17 +238,17 @@ public class game_capitals extends AppCompatActivity {
             } while (cursor_0.moveToNext());
         }
         country_random.addAll(country_random_0);
-        country_buttons_all.addAll(country_random_0);
+        country_buttons.addAll(country_random_0);
+        country_random_0.clear();
+        cursor_0.close();
     }
 
     public void begin() {
 
-        if (country_random.size() == 1){
+        if (country_random.size() == 0){
             country_random.clear();
             get_idCountry_by_difficulty(game_difficulty);
         }
-
-        // country_random.clear();
         int a = 0;
         number.clear();
         if (practice_mode==0) {
@@ -263,29 +261,18 @@ public class game_capitals extends AppCompatActivity {
             timer_on =1;
         }
 
-
-        country_buttons.clear();
-        country_buttons.addAll(country_buttons_all);
-
         Collections.shuffle(country_random);
         Collections.shuffle(country_buttons);
-        if (country_random.size() >= 1) {
-            country_name = getCountry_name(country_random.get(0));
-            country_button = getButton_name(country_random.get(0));
-            while (a == 0) {
-                if (country_random.contains(country_random.get(0))) {
-                    country_buttons.remove(country_random.get(0));
-                    country_random.remove(country_random.get(0));
 
-                    a = 1;
-                } else {
-                    Collections.shuffle(country_random);
-                    country_name = getCountry_name(country_random.get(0));
-                    country_button = getButton_name(country_random.get(0));
+        country_name = getCountry_name(country_random.get(0));
+        country_button = getButton_name(country_random.get(0));
+        country_buttons.remove(country_random.get(0));
+        country_random.remove(country_random.get(0));
 
-                }
-            }
+        if(country_random.size()>0) {
+            country_buttons.add(country_random.get(0));
         }
+        country_random.remove(country_random.get(0));
 
         TextView pais =  findViewById(R.id.country);
         //set Text
@@ -383,6 +370,15 @@ public class game_capitals extends AppCompatActivity {
 
         if (button_OK.getText() == country_button) {
             long scoreQuestion;
+            if(answerTime>5800){
+                cheat++;
+            }else{
+                cheat =0;
+            }
+
+            if(cheat >=5 && errors>=20){
+                score=0;
+            }
             scoreQuestion = Math.max(0, (levelMaxTime - (levelMaxTime - answerTime))) / 100;
             scoreQuestion = Math.round(scoreQuestion*(1+total_streak/10));
             score = score + scoreQuestion;

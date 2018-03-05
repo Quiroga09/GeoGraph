@@ -3,7 +3,6 @@ package com.twentyfourkapps.geograph;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -36,8 +35,6 @@ public class scores extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         signedInAccount = GoogleSignIn.getLastSignedInAccount(this);
         if(signedInAccount != null){
@@ -312,5 +309,7 @@ public class scores extends BaseActivity implements View.OnClickListener {
         hard3.setText(best0.getString(0));
         best0.close();
     }
+
+
 
 }

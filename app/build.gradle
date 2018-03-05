@@ -35,10 +35,11 @@ android {
         applicationId "com.twentyfourkapps.geograph"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 13
-        versionName "1.1.8"
+        versionCode 15
+        versionName "1.2.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+
     }
 
 }

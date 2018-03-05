@@ -631,7 +631,13 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
         if(user_logged_in==1){
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage(R.string.locked)
-                    .setCancelable(true);
+                    .setCancelable(true)
+                    .setPositiveButton(R.string.OK_button,new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    //do things
+                    dialog.dismiss();
+                }
+            });
 
             AlertDialog alert = builder.create();
             alert.show();

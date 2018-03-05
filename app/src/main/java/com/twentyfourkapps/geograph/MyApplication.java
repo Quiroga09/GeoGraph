@@ -2,6 +2,8 @@ package com.twentyfourkapps.geograph;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 import org.acra.ACRA;
 import org.acra.ReportField;
@@ -30,11 +32,21 @@ import org.acra.sender.HttpSender;
 
 
 public class MyApplication extends Application {
+    String LANG_CURRENT ="en";
 
     protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
+        super.attachBaseContext(LocaleManager.setNewLocale(base,LANG_CURRENT));
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(base);
+        LANG_CURRENT = preferences.getString("Language", "en");
+
+
 
         // The following line triggers the initialization of ACRA
         ACRA.init(this);
+
+
     }
+
+
 }
