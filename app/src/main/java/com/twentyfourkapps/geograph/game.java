@@ -13,6 +13,7 @@ import android.os.Handler;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -127,8 +128,8 @@ public class game extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         InterstitialAd mInterstitialAd;
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         super.onCreate(savedInstanceState);
-
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         //Get values from previous activity
@@ -295,6 +296,11 @@ public class game extends AppCompatActivity {
         country_button = getButton_name(country_random.get(0));
 
         country_buttons.remove(country_random.get(0));
+
+        String answer1 = getButton_name(country_buttons.get(1));
+        String answer2 = getButton_name(country_buttons.get(2));
+        String answer3 = getButton_name(country_buttons.get(3));
+
         if(country_random.size()>0) {
             country_buttons.add(country_random.get(0));
         }
@@ -336,17 +342,17 @@ public class game extends AppCompatActivity {
         String button_id_2 = "option" + number.get(1);
         int button_name_2 = getResources().getIdentifier(button_id_2, "id", getPackageName());
         button2 =  findViewById(button_name_2);
-        button2.setText(getButton_name(country_buttons.get(1)));
+        button2.setText(answer1);
 
         String button_id_3 = "option" + number.get(2);
         int button_name_3 = getResources().getIdentifier(button_id_3, "id", getPackageName());
         button3 =  findViewById(button_name_3);
-        button3.setText(getButton_name(country_buttons.get(2)));
+        button3.setText(answer2);
 
         String button_id_4 = "option" + number.get(3);
         int button_name_4 = getResources().getIdentifier(button_id_4, "id", getPackageName());
         button4 =  findViewById(button_name_4);
-        button4.setText(getButton_name(country_buttons.get(3)));
+        button4.setText(answer3);
 
         //reestablish button opacity and clickable attributes
         button1.setAlpha(1);

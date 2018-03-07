@@ -14,6 +14,7 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -140,6 +141,7 @@ public class game_flags extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         setContentView(activity_game_flags);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -391,7 +393,6 @@ public class game_flags extends AppCompatActivity {
         ImageView check =  findViewById(R.id.check_mark);
         ImageView wrong =  findViewById(R.id.wrong_mark);
 
-
         if (button_OK.equals(country_button)) {
             long scoreQuestion;
             if(answerTime>5800){
@@ -423,7 +424,6 @@ public class game_flags extends AppCompatActivity {
                 case 50:
                     inarow=50;
                     break;
-
             }
 
         } else {
@@ -600,7 +600,7 @@ public class game_flags extends AppCompatActivity {
         int vibrate_time = 100;
         switch (streak) {
             case 3: //continent3
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 skip_count++;
@@ -610,7 +610,7 @@ public class game_flags extends AppCompatActivity {
                 RunAnimation(skip_button);
                 break;
             case 6: //25%6
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1  && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 a25_count++;
@@ -620,7 +620,7 @@ public class game_flags extends AppCompatActivity {
                 RunAnimation(a25_button);
                 break;
             case 9: //stoptime9
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1  && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 time_count++;
@@ -630,7 +630,7 @@ public class game_flags extends AppCompatActivity {
                 RunAnimation(time_button);
                 break;
             case 12: //50%12
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 a50_count++;

@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -47,6 +48,7 @@ public class finish extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         setContentView(R.layout.activity_finish);
 
         game_mode = getIntent().getIntExtra("game_mode",0);
@@ -60,7 +62,7 @@ public class finish extends AppCompatActivity {
             RelativeLayout rel = findViewById(R.id.rel_finish);
             Context con = rel.getContext();
             GamesClient gamesClient = Games.getGamesClient(con, signedInAccount);
-            gamesClient.setViewForPopups(this.findViewById(R.id.rel_finish));
+            gamesClient.setViewForPopups(this.findViewById(R.id.popup_fin));
             gamesClient.setGravityForPopups(Gravity.CENTER_HORIZONTAL);
             user_logged_in = 1;
         }else{
@@ -248,29 +250,35 @@ public class finish extends AppCompatActivity {
 
     public void updateScore(){
         String bestScore = getBestScore();
-        if(score > parseInt(bestScore)){
-            ContentValues initialValues = new ContentValues();
+        ContentValues initialValues = new ContentValues();
+        if(score > parseInt(bestScore)) {
             initialValues.put("id", 1); // the execution is different if _id is 2
-
+        }
             switch (game_mode) {
                 case 3:
                     switch (game_difficulty) {
                         case 0:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_easy, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_easy, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__shape_easy), score);
                             }
                             break;
                         case 1:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_medium, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_medium, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__shape_medium), score);
                             }
                             break;
                         case 2:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_hard, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_3_hard, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__shape_hard), score);
@@ -283,21 +291,27 @@ public class finish extends AppCompatActivity {
                 case 0:
                     switch (game_difficulty) {
                         case 0:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_easy, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_easy, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_flag__country_easy), score);
                             }
                             break;
                         case 1:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_medium, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_medium, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_flag__country_medium), score);
                             }
                             break;
                         case 2:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_hard, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_0_hard, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_flag__country_hard), score);
@@ -309,7 +323,9 @@ public class finish extends AppCompatActivity {
                 case 1:
                     switch (game_difficulty) {
                         case 0:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_easy, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_easy, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__flag_easy), score);
@@ -317,7 +333,9 @@ public class finish extends AppCompatActivity {
 
                             break;
                         case 1:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_medium, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_medium, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__flag_medium), score);
@@ -325,7 +343,9 @@ public class finish extends AppCompatActivity {
 
                             break;
                         case 2:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_hard, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_1_hard, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_country__flag_hard), score);
@@ -338,7 +358,9 @@ public class finish extends AppCompatActivity {
                 case 2:
                     switch (game_difficulty) {
                         case 0:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_easy, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_easy, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_capitals_easy), score);
@@ -346,7 +368,9 @@ public class finish extends AppCompatActivity {
 
                             break;
                         case 1:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_medium, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_medium, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_capitals_medium), score);
@@ -354,7 +378,9 @@ public class finish extends AppCompatActivity {
 
                             break;
                         case 2:
-                            initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_hard, score);
+                            if(score > parseInt(bestScore)) {
+                                initialValues.put(PlayerContract.PlayerEntry.BEST_SCORE_2_hard, score);
+                            }
                             if(signedInAccount != null) {
                                 Games.getLeaderboardsClient(this, signedInAccount)
                                         .submitScore(getString(R.string.leaderboard_capitals_hard), score);
@@ -365,15 +391,15 @@ public class finish extends AppCompatActivity {
                     break;
             }
 
-
+        if(score > parseInt(bestScore)) {
             initialValues.put(PlayerContract.PlayerEntry.PLAYER_NAME, "a");
 
             int id = (int) db.insertWithOnConflict(PlayerContract.PlayerEntry.TABLE_NAME, null, initialValues, SQLiteDatabase.CONFLICT_IGNORE);
             if (id == -1) {
-                db.update(PlayerContract.PlayerEntry.TABLE_NAME, initialValues, "_id=?", new String[] {"1"});  // number 1 is the _id here, update to variable for your code
+                db.update(PlayerContract.PlayerEntry.TABLE_NAME, initialValues, "_id=?", new String[]{"1"});  // number 1 is the _id here, update to variable for your code
             }
-
         }
+
     }
 
     @Override

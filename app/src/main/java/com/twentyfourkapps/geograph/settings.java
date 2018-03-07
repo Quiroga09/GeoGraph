@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.SwitchCompat;
 import android.view.View;
 import android.widget.Button;
@@ -27,6 +28,7 @@ public class settings extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         setContentView(R.layout.activity_settings);
 
         Button english = findViewById(R.id.english);
@@ -56,7 +58,9 @@ public class settings extends BaseActivity {
                 if (isChecked) {
                     Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                     int vibrate_time = 100;
-                    vib.vibrate(vibrate_time);
+                    if(vib != null) {
+                        vib.vibrate(vibrate_time);
+                    }
                     changeVib(settings.this,1);
                 }else {
                     changeVib(settings.this, 0);

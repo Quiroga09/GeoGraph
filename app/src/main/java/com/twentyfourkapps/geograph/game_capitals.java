@@ -14,6 +14,7 @@ import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -70,17 +71,17 @@ public class game_capitals extends AppCompatActivity {
 
     public String country_name;
     public String country_button;
-    ArrayList<Integer> country_random = new ArrayList<Integer>();
-    ArrayList<Integer> country_buttons = new ArrayList<Integer>();
+    ArrayList<Integer> country_random = new ArrayList<>();
+    ArrayList<Integer> country_buttons = new ArrayList<>();
 
-    ArrayList<Integer> country_buttons_all = new ArrayList<Integer>();
-    ArrayList<Integer> country_random_0 = new ArrayList<Integer>();
+    ArrayList<Integer> country_buttons_all = new ArrayList<>();
+    ArrayList<Integer> country_random_0 = new ArrayList<>();
 
     private Button button1;
     private Button button2;
     private Button button3;
     private Button button4;
-    private ArrayList<Integer> number = new ArrayList<Integer>();
+    private ArrayList<Integer> number = new ArrayList<>();
 
     private int game_mode;
     private int game_difficulty;
@@ -130,7 +131,7 @@ public class game_capitals extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         //Get game mode
@@ -267,7 +268,10 @@ public class game_capitals extends AppCompatActivity {
         country_name = getCountry_name(country_random.get(0));
         country_button = getButton_name(country_random.get(0));
         country_buttons.remove(country_random.get(0));
-        country_random.remove(country_random.get(0));
+
+        String answer1 = getButton_name(country_buttons.get(1));
+        String answer2 = getButton_name(country_buttons.get(2));
+        String answer3 = getButton_name(country_buttons.get(3));
 
         if(country_random.size()>0) {
             country_buttons.add(country_random.get(0));
@@ -292,17 +296,17 @@ public class game_capitals extends AppCompatActivity {
         String button_id_2 = "option" + number.get(1);
         int button_name_2 = getResources().getIdentifier(button_id_2, "id", getPackageName());
         button2 =  findViewById(button_name_2);
-        button2.setText(getButton_name(country_buttons.get(1)));
+        button2.setText(answer1);
 
         String button_id_3 = "option" + number.get(2);
         int button_name_3 = getResources().getIdentifier(button_id_3, "id", getPackageName());
         button3 =  findViewById(button_name_3);
-        button3.setText(getButton_name(country_buttons.get(2)));
+        button3.setText(answer2);
 
         String button_id_4 = "option" + number.get(3);
         int button_name_4 = getResources().getIdentifier(button_id_4, "id", getPackageName());
         button4 =  findViewById(button_name_4);
-        button4.setText(getButton_name(country_buttons.get(3)));
+        button4.setText(answer3);
 
         //button opacity and clickable
         button1.setAlpha(1);
@@ -480,11 +484,15 @@ public class game_capitals extends AppCompatActivity {
         if(LANG_CURRENT == "en"){
             Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
             show_country.moveToFirst();
-            return show_country.getString(0);
+            String ret = show_country.getString(0);
+            show_country.close();
+            return ret;
         }else{
             Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.ANSWER_ES + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
             show_country.moveToFirst();
-            return show_country.getString(0);
+            String ret = show_country.getString(0);
+            show_country.close();
+            return ret;
         }
     }
 
@@ -493,7 +501,9 @@ public class game_capitals extends AppCompatActivity {
         if(LANG_CURRENT == "en"){
             Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.CAPITAL + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
             show_country.moveToFirst();
-            return show_country.getString(0);
+            String ret = show_country.getString(0);
+            show_country.close();
+            return ret;
         }else{
             Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.CAPITAL_ES + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
             show_country.moveToFirst();
@@ -578,7 +588,7 @@ public class game_capitals extends AppCompatActivity {
         int vibrate_time = 100;
         switch (streak) {
             case 3: //continent3
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 skip_count++;
@@ -588,7 +598,7 @@ public class game_capitals extends AppCompatActivity {
                 RunAnimation(skip_button);
                 break;
             case 6: //25%6
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 a25_count++;
@@ -598,7 +608,7 @@ public class game_capitals extends AppCompatActivity {
                 RunAnimation(a25_button);
                 break;
             case 9: //stoptime9
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 time_count++;
@@ -608,7 +618,7 @@ public class game_capitals extends AppCompatActivity {
                 RunAnimation(time_button);
                 break;
             case 12: //50%12
-                if (VIB_CURRENT == 1) {
+                if (VIB_CURRENT == 1 && vib != null) {
                     vib.vibrate(vibrate_time);
                 }
                 a50_count++;
