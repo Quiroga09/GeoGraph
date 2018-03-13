@@ -47,8 +47,8 @@
             android:layout_marginStart="45dp"
             android:layout_gravity="center_vertical"
             android:drawablePadding="15dp"
-            android:drawableLeft="@drawable/achievements_logo"
-            android:drawableStart="@drawable/achievements_logo"
+            android:drawableLeft="@drawable/achievements_logo_wrapped"
+            android:drawableStart="@drawable/achievements_logo_wrapped"
             />
 
 

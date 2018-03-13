@@ -43,8 +43,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
             android:layout_gravity="center_vertical"
-            android:drawableStart="@drawable/achievements_logo"
-            android:drawableLeft="@drawable/achievements_logo"
+            android:drawableStart="@drawable/achievements_logo_wrapped"
+            android:drawableLeft="@drawable/achievements_logo_wrapped"
             android:drawablePadding="15dp"
             />
 

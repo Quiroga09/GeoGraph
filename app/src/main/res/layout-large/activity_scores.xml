@@ -50,8 +50,8 @@
             android:layout_marginStart="30dp"
             android:layout_gravity="center_vertical"
             android:drawablePadding="15dp"
-            android:drawableLeft="@drawable/ranking_icon"
-            android:drawableStart="@drawable/ranking_icon"
+            android:drawableLeft="@drawable/ranking_icon_wrapped"
+            android:drawableStart="@drawable/ranking_icon_wrapped"
 
             />
 

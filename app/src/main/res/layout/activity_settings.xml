@@ -39,8 +39,8 @@
             android:layout_marginTop="60dp"
             android:layout_marginLeft="22dp"
             android:layout_marginStart="22dp"
-            android:drawableStart="@drawable/settings"
-            android:drawableLeft="@drawable/settings"
+            android:drawableStart="@drawable/settings_wrapped"
+            android:drawableLeft="@drawable/settings_wrapped"
             android:drawablePadding="15sp"
 
             />

@@ -49,8 +49,8 @@
                 android:layout_marginLeft="22dp"
                 android:layout_marginStart="22dp"
                 android:layout_gravity="center_vertical"
-                android:drawableLeft="@drawable/info"
-                android:drawableStart="@drawable/info"
+                android:drawableLeft="@drawable/info_wrapped"
+                android:drawableStart="@drawable/info_wrapped"
                 android:drawablePadding="15dp"
                 />
 

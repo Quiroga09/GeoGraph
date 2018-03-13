@@ -48,8 +48,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_gravity="center_vertical"
-            android:drawableStart="@drawable/ranking_icon"
-            android:drawableLeft="@drawable/ranking_icon"
+            android:drawableStart="@drawable/ranking_icon_wrapped"
+            android:drawableLeft="@drawable/ranking_icon_wrapped"
             android:drawablePadding="15dp"
             />
 
