@@ -22,7 +22,7 @@ public class start extends AppCompatActivity {
     public int game_mode;
     public int game_difficulty;
     public int practice_mode;
-    public int ad_count;
+    public float ad_count;
     Intent intent = new Intent();
     ImageView btn_rotate;
     @Override
@@ -42,7 +42,7 @@ public class start extends AppCompatActivity {
         textView2.setTypeface(typeface);
 
         Bundle bundle = getIntent().getExtras();
-        ad_count = getIntent().getIntExtra("ad_count",0);
+        ad_count = getIntent().getFloatExtra("ad_count",0);
         game_mode = getIntent().getIntExtra("game_mode",0);
         game_difficulty = getIntent().getIntExtra("game_difficulty",0);
         practice_mode = getIntent().getIntExtra("practice_mode",0);

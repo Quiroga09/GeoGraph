@@ -112,7 +112,7 @@ public class game_capitals extends AppCompatActivity {
 
     private int timer_on = 1;
     private long paused_question_time;
-    private int ad_count;
+    private float ad_count;
     private int paused=0;
     private String LANG_CURRENT ="en";
     private int VIB_CURRENT=1;
@@ -137,7 +137,7 @@ public class game_capitals extends AppCompatActivity {
         //Get game mode
         Bundle bundle = getIntent().getExtras();
         game_mode = getIntent().getIntExtra("game_mode",0);
-        ad_count = getIntent().getIntExtra("ad_count",0);
+        ad_count = getIntent().getFloatExtra("ad_count",0);
         game_difficulty = getIntent().getIntExtra("game_difficulty",0);
         practice_mode = getIntent().getIntExtra("practice_mode",0);
 
@@ -522,6 +522,7 @@ public class game_capitals extends AppCompatActivity {
             }
             countries_db.close();
             // db.delete("countries", null, null);
+            ad_count = ad_count + 0.5f;
             Intent i2 = new Intent(game_capitals.this, MainActivity.class);
             i2.putExtra("game_mode", game_mode);
             i2.putExtra("game_difficulty",game_difficulty);

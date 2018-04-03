@@ -282,8 +282,8 @@ public class CountriesDbHelper extends SQLiteOpenHelper {
         sqLiteDatabase.insert(CountryContract.CountryEntry.TABLE_NAME, null, values);
         values.clear();
 
-        values.put(CountryContract.CountryEntry.CAPITAL, "Rio de Janeiro");
-        values.put(CountryContract.CountryEntry.CAPITAL_ES, "Rio de Janeiro");
+        values.put(CountryContract.CountryEntry.CAPITAL, "Brasilia");
+        values.put(CountryContract.CountryEntry.CAPITAL_ES, "Brasilia");
         values.put(CountryContract.CountryEntry.ID, "20");
         values.put(CountryContract.CountryEntry.FILE_NAME, "brazil");
         values.put(CountryContract.CountryEntry.ANSWER, "Brazil");

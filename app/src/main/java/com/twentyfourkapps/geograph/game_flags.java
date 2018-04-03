@@ -122,7 +122,7 @@ public class game_flags extends AppCompatActivity {
     private int button_name_3;
     private int button_name_4;
 
-    private int ad_count;
+    private float ad_count;
     private int paused=0;
 
     private String LANG_CURRENT ="en";
@@ -148,7 +148,7 @@ public class game_flags extends AppCompatActivity {
 
         //Get game mode
         game_mode = getIntent().getIntExtra("game_mode",0);
-        ad_count = getIntent().getIntExtra("ad_count",0);
+        ad_count = getIntent().getFloatExtra("ad_count",0);
         game_difficulty = getIntent().getIntExtra("game_difficulty",0);
         practice_mode = getIntent().getIntExtra("practice_mode",0);
 
@@ -533,6 +533,7 @@ public class game_flags extends AppCompatActivity {
             }
             countries_db.close();
             // db.delete("countries", null, null);
+            ad_count = ad_count + 0.5f;
             Intent i2 = new Intent(game_flags.this, MainActivity.class);
             i2.putExtra("game_mode", game_mode);
             i2.putExtra("ad_count",ad_count);

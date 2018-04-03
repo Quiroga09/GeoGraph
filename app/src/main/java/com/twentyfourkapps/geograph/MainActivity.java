@@ -21,8 +21,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -37,11 +39,12 @@ import com.twentyfourkapps.geograph.data.ActivitySwipeDetector;
 import com.twentyfourkapps.geograph.data.SwipeInterface;
 
 public class MainActivity extends AppCompatActivity implements SwipeInterface  {
+    private InterstitialAd mInterstitialAd;
     private Boolean exit = false;
     public int game_mode = 0;
-    public int game_diff = 0;
+    public int game_diff;
     public int practice_mode = 0;
-    public int ad_count=0;
+    public float ad_count;
     private GoogleSignInAccount signedInAccount;
     private static final int RC_ACHIEVEMENT_UI = 9003;
     private int user_logged_in = 0;
@@ -63,9 +66,12 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-
         AdView mAdView;
         FirebaseAnalytics mFirebaseAnalytics;
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         AppRater.app_launched(this);
 
@@ -98,11 +104,20 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
             game_mode = getIntent().getIntExtra("game_mode",0);
         }
         if(getIntent().hasExtra("game_difficulty")) {
-            game_diff =getIntent().getIntExtra("game_difficulty",0);
+            game_diff =getIntent().getIntExtra("game_difficulty",1);
         }
         if(getIntent().hasExtra("ad_count")) {
-            ad_count =getIntent().getIntExtra("ad_count",0);
+            ad_count =getIntent().getFloatExtra("ad_count",0);
         }
+
+        if(ad_count >= 3) {
+            Button play_button = findViewById(R.id.play_button);
+            Button practice_button = findViewById(R.id.practice_button);
+            play_button.setClickable(false);
+            practice_button.setClickable(false);
+        }
+        display_ad();
+
         setGame_mode();
 
         // Obtain the FirebaseAnalytics instance.
@@ -320,8 +335,8 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
             game_mode = 3;
         }
 
-        game_diff=0;
-        diff(findViewById(R.id.easy));
+        //game_diff=0;
+       // diff(findViewById(R.id.easy));
 
         background_main = findViewById(R.id.background_main);
         play_button = findViewById(R.id.play_button);
@@ -558,13 +573,18 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
     public void left(View view) {
         // Do something in response to button
         game_mode--;
+        game_diff=0;
+        diff(findViewById(R.id.easy));
         setGame_mode();
+
     }
 
     /** Called when the user clicks the Send button */
     public void right(View view) {
         // Do something in response to button
         game_mode++;
+        game_diff=0;
+        diff(findViewById(R.id.easy));
         setGame_mode();
     }
 
@@ -663,6 +683,34 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
 
         //   game_diff = 0;
         // diff(findViewById(R.id.easy));
+    }
+
+    public void display_ad(){
+        final AdRequest.Builder adRequestBuilder = new AdRequest.Builder();
+
+
+        adRequestBuilder.addTestDevice("646C33D6AA1F9A8EE024EA44C5D34086");
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                super.onAdLoaded();
+                if(ad_count >= 3) {
+                    if (mInterstitialAd.isLoaded()) {
+                        mInterstitialAd.show();
+                        ad_count =0;
+                    }
+                }
+            }
+            @Override
+            public void onAdClosed() {
+                Button play_button = findViewById(R.id.play_button);
+                Button practice_button = findViewById(R.id.practice_button);
+                super.onAdClosed();
+                mInterstitialAd.loadAd(adRequestBuilder.build());
+                play_button.setClickable(true);
+                practice_button.setClickable(true);
+            }
+        });
     }
 
     @Override

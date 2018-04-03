@@ -35,7 +35,7 @@ public class finish extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
     private SQLiteDatabase db;
     public void setDb(SQLiteDatabase db){this.db = db;}
-    public int ad_count;
+    public float ad_count;
     public int game_mode;
     public ArrayList<Integer> achievement;
     public int game_difficulty;
@@ -55,7 +55,7 @@ public class finish extends AppCompatActivity {
         score = getIntent().getLongExtra("score",0);
         game_difficulty = getIntent().getIntExtra("game_difficulty",0);
         achievement = getIntent().getIntegerArrayListExtra("achievement");
-        ad_count = getIntent().getIntExtra("ad_count",0);
+        ad_count = getIntent().getFloatExtra("ad_count",0);
 
         signedInAccount = GoogleSignIn.getLastSignedInAccount(this);
         if(signedInAccount != null){
@@ -108,8 +108,13 @@ public class finish extends AppCompatActivity {
         updateScore();
         score_text.setText((String.valueOf(score)));
 
-        display_ad();
         ad_count++;
+        if(ad_count >= 3) {
+            Button home_button = findViewById(R.id.home_button);
+            button_back.setClickable(false);
+            home_button.setClickable(false);
+        }
+        display_ad();
 
         if(achievement != null) {
             if (achievement.size() > 0 && signedInAccount != null) {
@@ -175,7 +180,11 @@ public class finish extends AppCompatActivity {
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
+                Button play_button = findViewById(R.id.play_button);
+                Button home_button = findViewById(R.id.home_button);
                 mInterstitialAd.loadAd(adRequestBuilder.build());
+                play_button.setClickable(true);
+                home_button.setClickable(true);
             }
         });
     }
