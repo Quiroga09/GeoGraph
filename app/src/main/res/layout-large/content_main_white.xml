@@ -293,22 +293,37 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:gravity="center"
                 android:orientation="horizontal"
                 android:scaleX="1.5"
                 android:scaleY="1.5">
 
+                <RelativeLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/language_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:onClick="settings"
+                        app:srcCompat="@drawable/congif"
+                        android:layout_alignParentBottom="true"
+                        />
+                    <TextView
+                        android:id="@+id/ads_new_main"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/button_mini_red"
+                        android:text="1"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:textColor="@color/white"
+                        />
+                </RelativeLayout>
 
-                <ImageButton
-                    android:id="@+id/language_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:onClick="settings"
-                    app:srcCompat="@drawable/congif"
-
-                    />
 
                 <ImageButton
                     android:layout_width="wrap_content"

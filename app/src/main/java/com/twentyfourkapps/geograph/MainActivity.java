@@ -57,36 +57,22 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
     private Boolean hard_countryFlag= false;
     private Boolean hard_capitals= false;
     private Boolean hard_countryShape= false;
-
+    private int isAdsDisabled;
+    private int ads_new;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-        setContentView(R.layout.content_main_white);
 
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
-        AdView mAdView;
-        FirebaseAnalytics mFirebaseAnalytics;
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        AppRater.app_launched(this);
-
-        signedInAccount = GoogleSignIn.getLastSignedInAccount(this);
-        if(signedInAccount != null) {
-            user_logged_in = 1;
-        }else {
-            user_logged_in = 0;
+        if(isAdsDisabled == 1){
+            setContentView(R.layout.content_main_white_noads);
         }
-
-        ImageButton log_button = findViewById(R.id.log_icon);
-        if(user_logged_in==1){
-            log_button.setImageDrawable(getResources().getDrawable(R.drawable.logout));
+        else if(isAdsDisabled ==0) {
+            setContentView(R.layout.content_main_white);
         }else{
-            log_button.setImageDrawable(getResources().getDrawable(R.drawable.login));
+            Intent intent = new Intent(MainActivity.this, Init.class);
+            startActivity(intent);
+            finish();
         }
 
         //Use custom font for a TEXTVIEW
@@ -110,31 +96,69 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
             ad_count =getIntent().getFloatExtra("ad_count",0);
         }
 
-        if(ad_count >= 3) {
-            Button play_button = findViewById(R.id.play_button);
-            Button practice_button = findViewById(R.id.practice_button);
-            play_button.setClickable(false);
-            practice_button.setClickable(false);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        AdView mAdView;
+        FirebaseAnalytics mFirebaseAnalytics;
+
+        if(ads_new ==1){
+            TextView ads_new_main = findViewById(R.id.ads_new_main);
+            ads_new_main.setVisibility(View.INVISIBLE);
         }
-        display_ad();
+
+
+        if(isAdsDisabled == 0) {
+            mInterstitialAd = new InterstitialAd(this);
+            mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
+            mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+            if(ad_count >= 3) {
+                Button play_button = findViewById(R.id.play_button);
+                Button practice_button = findViewById(R.id.practice_button);
+                play_button.setClickable(false);
+                practice_button.setClickable(false);
+            }
+        }
+
+        AppRater.app_launched(this);
+
+        signedInAccount = GoogleSignIn.getLastSignedInAccount(this);
+        if(signedInAccount != null) {
+            user_logged_in = 1;
+            ImageButton log_button = findViewById(R.id.log_icon);
+            log_button.setImageDrawable(getResources().getDrawable(R.drawable.logout));
+        }else {
+            user_logged_in = 0;
+            ImageButton log_button = findViewById(R.id.log_icon);
+            log_button.setImageDrawable(getResources().getDrawable(R.drawable.login));
+        }
+
+
+
+
+        if(isAdsDisabled == 0) {
+            display_ad();
+        }else{
+            ad_count=0;
+        }
 
         setGame_mode();
 
         // Obtain the FirebaseAnalytics instance.
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        if(isAdsDisabled==0) {
+            MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544~3347511713");
+            mAdView =  findViewById(R.id.adView);
+            //AdRequest adRequest = new AdRequest.Builder().build();
 
-        MobileAds.initialize(getApplicationContext(), "ca-app-pub-3940256099942544~3347511713");
-        mAdView =  findViewById(R.id.adView);
-        //AdRequest adRequest = new AdRequest.Builder().build();
-
-
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
-                .addTestDevice("646C33D6AA1F9A8EE024EA44C5D34086")  // My Galaxy Nexus test phone
-                .build();
-        adRequest.isTestDevice(this);
-        mAdView.loadAd(adRequest);
-
+            AdRequest adRequest = new AdRequest.Builder()
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
+                    .addTestDevice("646C33D6AA1F9A8EE024EA44C5D34086")  // My Galaxy Nexus test phone
+                    .build();
+            adRequest.isTestDevice(this);
+            mAdView.loadAd(adRequest);
+        }
         switch (game_diff){
             case 0:
                 diff(findViewById(R.id.easy));
@@ -336,7 +360,7 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
         }
 
         //game_diff=0;
-       // diff(findViewById(R.id.easy));
+        // diff(findViewById(R.id.easy));
 
         background_main = findViewById(R.id.background_main);
         play_button = findViewById(R.id.play_button);
@@ -620,6 +644,8 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
         hard_countryFlag= preferences.getBoolean("hard_countryFlag", false);
         hard_capitals= preferences.getBoolean("hard_capitals", false);
         hard_countryShape= preferences.getBoolean("hard_countryShape", false);
+        isAdsDisabled = preferences.getInt("isAdsDisabled",99);
+        ads_new =preferences.getInt("ads_new",99);
 
         super.attachBaseContext(LocaleManager.setNewLocale(newBase,LANG_CURRENT));
     }
@@ -656,11 +682,11 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
             builder.setMessage(R.string.locked)
                     .setCancelable(true)
                     .setPositiveButton(R.string.OK_button,new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    //do things
-                    dialog.dismiss();
-                }
-            });
+                        public void onClick(DialogInterface dialog, int id) {
+                            //do things
+                            dialog.dismiss();
+                        }
+                    });
 
             AlertDialog alert = builder.create();
             alert.show();
@@ -697,7 +723,6 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
                 if(ad_count >= 3) {
                     if (mInterstitialAd.isLoaded()) {
                         mInterstitialAd.show();
-                        ad_count =0;
                     }
                 }
             }
@@ -709,6 +734,7 @@ public class MainActivity extends AppCompatActivity implements SwipeInterface  {
                 mInterstitialAd.loadAd(adRequestBuilder.build());
                 play_button.setClickable(true);
                 practice_button.setClickable(true);
+                ad_count =0;
             }
         });
     }

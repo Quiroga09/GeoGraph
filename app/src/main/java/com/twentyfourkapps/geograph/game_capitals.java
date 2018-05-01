@@ -507,7 +507,9 @@ public class game_capitals extends AppCompatActivity {
         }else{
             Cursor show_country = getDb().rawQuery("SELECT " + CountryContract.CountryEntry.CAPITAL_ES + " FROM " + CountryContract.CountryEntry.TABLE_NAME + " WHERE id=" + rand, null);
             show_country.moveToFirst();
-            return show_country.getString(0);
+            String ret = show_country.getString(0);
+            show_country.close();
+            return ret;
         }
 
     }

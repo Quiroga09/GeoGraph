@@ -31,7 +31,7 @@ import com.google.android.gms.games.achievement.AchievementBuffer;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.twentyfourkapps.geograph.data.PlayerContract;
 
-public class Init extends AppCompatActivity implements View.OnClickListener{
+public class Init extends AppCompatActivity implements MyEventClassListener {
 
     private static final int RC_SIGN_IN = 9000;
     private String LANG_CURRENT ="en";
@@ -47,6 +47,7 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
     private Boolean hard_capitals= false;
     private Boolean hard_countryShape= false;
     private GoogleSignInAccount signedInAccount;
+    private MyBilling myB = new MyBilling(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +64,6 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
         getDatabase();
         Cursor login = db.rawQuery("SELECT " + PlayerContract.PlayerEntry.NO_LOGIN +" FROM " + PlayerContract.PlayerEntry.TABLE_NAME + " WHERE id = 1" ,  null);
         login.moveToFirst();
-        String ret =  login.getString(0);
         login.close();
 
         RelativeLayout rel = findViewById(R.id.rel_init);
@@ -90,6 +90,25 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
         }
     }
 
+
+    @Override
+    public void somethingHappened(){
+        myB.removeListener(Init.this);
+        if(Constants.isAdsDisabled<99) {
+            changeAds(this);
+            Intent intent = new Intent(Init.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
+    public void changeAds(Context context) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putInt("isAdsDisabled", Constants.isAdsDisabled);
+        editor.apply();
+    }
+
     public void getDatabase(){
         CountriesDbHelper countries_db = new CountriesDbHelper(this);
         setDb(countries_db.getWritableDatabase());
@@ -114,10 +133,17 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
                         if (id1 == -1) {
                             db.update(PlayerContract.PlayerEntry.TABLE_NAME, initialValues, "_id=?", new String[] {"1"});  // number 1 is the _id here, update to variable for your code
                         }
+                        myB.onCreate();
+                        final Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                // Do something after 5s = 5000ms
 
-                        Intent intent = new Intent(Init.this,  MainActivity.class);
-                        startActivity(intent);
-                        finish();
+                                myB.addListener(Init.this);
+                                myB.notifyListeners();
+                            }
+                        }, 500);
                     }
                 });
         AlertDialog alert = builder.create();
@@ -149,15 +175,15 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
                     gamesClient.setViewForPopups(findViewById(R.id.rel_init));
                     update_scores();
                 }
-
+                myB.onCreate();
                 final Handler handler = new Handler();
                 handler.postDelayed(new Runnable() {
                     @Override
                     public void run() {
                         // Do something after 5s = 5000ms
-                        Intent intent = new Intent(Init.this,  MainActivity.class);
-                        startActivity(intent);
-                        finish();
+
+                        myB.addListener(Init.this);
+                        myB.notifyListeners();
                     }
                 }, 1500);
 
@@ -199,6 +225,7 @@ public class Init extends AppCompatActivity implements View.OnClickListener{
         }
 
     }
+
 
     public void unlock_achievement(int ach){
         final int un_ach = ach;

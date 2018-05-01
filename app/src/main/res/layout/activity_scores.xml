@@ -103,6 +103,7 @@
                         android:textColor="@color/white"
                         android:background="@drawable/button_ranking_green"
                         android:textStyle="bold"
+                        android:textSize="14sp"
                         style="@style/Widget.AppCompat.ButtonBar"
                         />
 
@@ -115,7 +116,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/medium"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -130,7 +131,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/hard"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
                         />
@@ -187,6 +188,7 @@
                         android:textColor="@color/white"
                         android:background="@drawable/button_ranking_green"
                         android:textStyle="bold"
+                        android:textSize="14sp"
                         style="@style/Widget.AppCompat.ButtonBar"
 
                         />
@@ -200,7 +202,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/medium"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -215,7 +217,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/hard"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -274,7 +276,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
-
+                        android:textSize="14sp"
                         />
 
                     <Button
@@ -286,7 +288,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/medium"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -301,7 +303,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/hard"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -360,6 +362,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
+                        android:textSize="14sp"
 
                         />
 
@@ -372,7 +375,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/medium"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 
@@ -387,7 +390,7 @@
                         android:background="@drawable/button_ranking_green"
                         android:text="@string/hard"
                         android:textColor="@color/white"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:textStyle="bold"
                         style="@style/Widget.AppCompat.ButtonBar"
 

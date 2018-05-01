@@ -42,8 +42,8 @@ public class finish extends AppCompatActivity {
     public long score;
     private String LANG_CURRENT ="en";
     private  GoogleSignInAccount signedInAccount;
-    int user_logged_in=0;
-
+    private int user_logged_in=0;
+    private int isAdsDisabled;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,11 +68,13 @@ public class finish extends AppCompatActivity {
         }else{
             user_logged_in = 0;
         }
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
+        if(isAdsDisabled == 0) {
+            mInterstitialAd = new InterstitialAd(this);
+            mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
+            mInterstitialAd.loadAd(new AdRequest.Builder().build());
+        }else{
+            ad_count=0;
+        }
         TextView score_text =  findViewById(R.id.score);
         TextView points_text =  findViewById(R.id.points);
         Button button_back =  findViewById(R.id.play_button);
@@ -108,13 +110,15 @@ public class finish extends AppCompatActivity {
         updateScore();
         score_text.setText((String.valueOf(score)));
 
-        ad_count++;
-        if(ad_count >= 3) {
-            Button home_button = findViewById(R.id.home_button);
-            button_back.setClickable(false);
-            home_button.setClickable(false);
+        if(isAdsDisabled == 0) {
+            ad_count++;
+            if(ad_count >= 3) {
+                Button home_button = findViewById(R.id.home_button);
+                button_back.setClickable(false);
+                home_button.setClickable(false);
+            }
+            display_ad();
         }
-        display_ad();
 
         if(achievement != null) {
             if (achievement.size() > 0 && signedInAccount != null) {
@@ -173,7 +177,6 @@ public class finish extends AppCompatActivity {
                 if(ad_count >= 3) {
                     if (mInterstitialAd.isLoaded()) {
                         mInterstitialAd.show();
-                        ad_count =0;
                     }
                 }
             }
@@ -185,6 +188,7 @@ public class finish extends AppCompatActivity {
                 mInterstitialAd.loadAd(adRequestBuilder.build());
                 play_button.setClickable(true);
                 home_button.setClickable(true);
+                ad_count =0;
             }
         });
     }
@@ -204,8 +208,8 @@ public class finish extends AppCompatActivity {
     public void getDatabase(){
         CountriesDbHelper countries_db = new CountriesDbHelper(this);
         setDb(countries_db.getWritableDatabase());
-
     }
+
     public String getBestScore(){
         Cursor best = db.rawQuery("SELECT " + PlayerContract.PlayerEntry.BEST_SCORE_0_hard +" FROM " + PlayerContract.PlayerEntry.TABLE_NAME + " WHERE id= 1" ,  null);
         switch (game_mode){
@@ -415,6 +419,7 @@ public class finish extends AppCompatActivity {
     protected void attachBaseContext(Context newBase) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(newBase);
         LANG_CURRENT = preferences.getString("Language", "en");
+        isAdsDisabled = preferences.getInt("isAdsDisabled",99);
 
         super.attachBaseContext(LocaleManager.setNewLocale(newBase,LANG_CURRENT));
     }

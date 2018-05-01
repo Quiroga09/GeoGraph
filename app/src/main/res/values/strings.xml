@@ -55,5 +55,6 @@
     <string name="rate_message">If you enjoy playing GeoGraph, please take a moment to rate it. Thanks for your support!</string>
     <string name="no_button">No, thanks</string>
     <string name="remind_me_later">Remind me later</string>
+    <string name="remove_ads">Remove ads</string>
 
 </resources>
